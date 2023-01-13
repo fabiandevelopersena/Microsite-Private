@@ -599,7 +599,23 @@ a {
     z-index: 190;
     position: absolute;
     top: -378%;
-    left: 45%;
+    left: 40%;
+  }
+  
+  .fungicas6 {
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    color: rgba(12, 46, 109, 1);
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+    z-index: 190;
+    position: absolute;
+    top: -120%;
+    left: 44%;
   }
   
   
@@ -729,7 +745,7 @@ a {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #d5eada;
+    background-color: #bad5f7;
   
   }
   
@@ -742,7 +758,7 @@ a {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #e2cfe2;
+    background-color: #f1e7ff;
   
   }
   
@@ -754,7 +770,7 @@ a {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #cfdab5;
+    background-color: #9facda;
   
   }
   
@@ -766,7 +782,7 @@ a {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #bad5f7;
+    background-color: #d5eada;
   
   }
   
@@ -778,7 +794,7 @@ a {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #c9cbc2;
+    background-color: #f0e3ed;
   
   }
   
@@ -793,7 +809,7 @@ a {
     position: relative;
     left: -50px;
     top: -930px;
-    background-color: #f0e3ed;
+    background-color: #c9cbc2;
   
   }
   
@@ -805,7 +821,7 @@ a {
     position: relative;
     left: -50px;
     top: -86px;
-    background-color: #f1e7ff;
+    background-color: #e2cfe2;
   
   }
   
@@ -817,7 +833,7 @@ a {
     position: relative;
     left: -50px;
     top: -86px;
-    background-color: #9fdab5;
+    background-color: #cfdab5;
   
   }
   
@@ -833,6 +849,7 @@ a {
     background-color: #ffffd8;
   
   }
+
   
   
   /*  img {

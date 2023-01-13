@@ -1384,6 +1384,23 @@ a {
         left: 45%;
 }
 
+.fungicas6 {
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    color: rgba(12, 46, 109, 1);
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+    z-index: 190;
+    position: absolute;
+    top: -120%;
+    left: 44%;
+  }
+  
+
 
 
 #third:checked~#labels label,
@@ -1504,118 +1521,118 @@ label {
 }
 
 .one div {}
-
-.one-img {
-    width: 2800px;
-    height: 850px;
-    position: relative;
-    left: -50px;
-    top: -85px;
-    background-color: #d5eada;
-
-}
-
-
-.two div {}
-
-.two-img {
-    width: 2800px;
-    height: 850px;
-    position: relative;
-    left: -50px;
-    top: -85px;
-    background-color: #e2cfe2;
-
-}
-
-.three div {}
-
-.three-img {
-    width: 2800px;
-    height: 850px;
-    position: relative;
-    left: -50px;
-    top: -85px;
-    background-color: #cfdab5;
-
-}
-
-.four div {}
-
-.four-img {
+  
+  .one-img {
     width: 2800px;
     height: 850px;
     position: relative;
     left: -50px;
     top: -85px;
     background-color: #bad5f7;
-
-}
-
-.five div {}
-
-.five-img {
+  
+  }
+  
+  
+  .two div {}
+  
+  .two-img {
     width: 2800px;
     height: 850px;
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #c9cbc2;
-
-}
-
-
-
-
-.six div {}
-
-.six-img {
+    background-color: #f1e7ff;
+  
+  }
+  
+  .three div {}
+  
+  .three-img {
+    width: 2800px;
+    height: 850px;
+    position: relative;
+    left: -50px;
+    top: -85px;
+    background-color: #9facda;
+  
+  }
+  
+  .four div {}
+  
+  .four-img {
+    width: 2800px;
+    height: 850px;
+    position: relative;
+    left: -50px;
+    top: -85px;
+    background-color: #d5eada;
+  
+  }
+  
+  .five div {}
+  
+  .five-img {
+    width: 2800px;
+    height: 850px;
+    position: relative;
+    left: -50px;
+    top: -85px;
+    background-color: #f0e3ed;
+  
+  }
+  
+  
+  
+  
+  .six div {}
+  
+  .six-img {
     width: 2400px;
     height: 2500px;
     position: relative;
     left: -50px;
     top: -930px;
-    background-color: #f0e3ed;
-
-}
-
-.seven div {}
-
-.seven-img {
+    background-color: #c9cbc2;
+  
+  }
+  
+  .seven div {}
+  
+  .seven-img {
     width: 2800px;
     height: 850px;
     position: relative;
     left: -50px;
     top: -86px;
-    background-color: #f1e7ff;
-
-}
-
-.eight div {}
-
-.eight-img {
+    background-color: #e2cfe2;
+  
+  }
+  
+  .eight div {}
+  
+  .eight-img {
     width: 2800px;
     height: 850px;
     position: relative;
     left: -50px;
     top: -86px;
-    background-color: #9fdab5;
-
-}
-
-.nine div {}
-
-
-.nine-img {
+    background-color: #cfdab5;
+  
+  }
+  
+  .nine div {}
+  
+  
+  .nine-img {
     width: 2800px;
     height: 850px;
     position: relative;
     left: -50px;
     top: -86px;
     background-color: #ffffd8;
-
-}
-
+  
+  }
+  
 
 /* img {
     display: block;

@@ -1734,6 +1734,24 @@ a {
 }
 
 
+.fungicas6 {
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    color: rgba(12, 46, 109, 1);
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+    z-index: 190;
+    position: absolute;
+    top: -120%;
+    left: 44%;
+  }
+  
+
+
 
 #third:checked~#labels label,
 #sixth:checked~#labels label {
@@ -1860,7 +1878,7 @@ label {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #d5eada;
+    background-color: #bad5f7;
 
 }
 
@@ -1873,7 +1891,7 @@ label {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #e2cfe2;
+    background-color: #f1e7ff;
 
 }
 
@@ -1885,7 +1903,7 @@ label {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #cfdab5;
+    background-color: #9facda;
 
 }
 
@@ -1897,7 +1915,7 @@ label {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #bad5f7;
+    background-color: #d5eada;
 
 }
 
@@ -1909,7 +1927,7 @@ label {
     position: relative;
     left: -50px;
     top: -85px;
-    background-color: #c9cbc2;
+    background-color: #f0e3ed;
 
 }
 
@@ -1924,7 +1942,7 @@ label {
     position: relative;
     left: -50px;
     top: -930px;
-    background-color: #f0e3ed;
+    background-color: #c9cbc2;
 
 }
 
@@ -1936,7 +1954,7 @@ label {
     position: relative;
     left: -50px;
     top: -86px;
-    background-color: #f1e7ff;
+    background-color: #e2cfe2;
 
 }
 
@@ -1948,7 +1966,7 @@ label {
     position: relative;
     left: -50px;
     top: -86px;
-    background-color: #9fdab5;
+    background-color: #cfdab5;
 
 }
 
