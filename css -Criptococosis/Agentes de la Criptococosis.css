@@ -1,306 +1,278 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 body {
-    background: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.3;
+  background: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
 }
-
-
 
 header {
-    position: relative;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 10%;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-    z-index: 999;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  z-index: 999;
 }
-
-
 
 header.bg-33 {
-    background: linear-gradient(0deg, rgba(6, 16, 41, 1) 0%, rgba(12, 46, 109, 1) 100%);
-    border-bottom: 2px solid #444444;
+  background: linear-gradient(
+    0deg,
+    rgba(6, 16, 41, 1) 0%,
+    rgba(12, 46, 109, 1) 100%
+  );
+  border-bottom: 2px solid #444444;
 }
-
-
-
-
-
 
 /* logo-gov */
 
-
 .img-gov {
-
-    width: 13em;
-    object-fit: cover;
-    position: fixed;
-    top: 0;
-    left: 2%;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+  width: 13em;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 2%;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
-
 
 .icon-enfermedades {
-    width: 4em;
-    object-fit: cover;
-    position: fixed;
-    top: -3%;
-    left: 80%;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+  width: 4em;
+  object-fit: cover;
+  position: fixed;
+  top: -3%;
+  left: 80%;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
-
-
 
 /* Menu Hamburguesa */
 
 .main-header {
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0.4rem;
-    margin-top: 3%;
-    position: relative;
-
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.4rem;
+  margin-top: 3%;
+  position: relative;
 }
 
 .main-logo {
-    color: black;
-    font-size: 32px;
-    text-decoration: none;
-
+  color: black;
+  font-size: 32px;
+  text-decoration: none;
 }
 
 .main-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    margin-left: -100%;
-    transition: all .2s linear;
-    background-color: rgba(0, 0, 0, 0.64);
-    z-index: 100;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  margin-left: -100%;
+  transition: all 0.2s linear;
+  background-color: rgba(0, 0, 0, 0.64);
+  z-index: 100;
 }
 
 .main-nav.show {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .nav-links {
-    background-color: rgb(250, 250, 250);
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 100%;
-    align-items: center;
-    justify-content: flex-start;
-    border-radius: 0px 0px 0px 0px;
-
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .link-item {
-    margin-top: 1.7rem;
-    color: #444444;
-    text-decoration: none;
-    font-weight: bold;
-    position: relative;
+  margin-top: 1.7rem;
+  color: #444444;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
 }
 
 .link-item::after {
-    position: absolute;
-    content: "";
-    background-color: black;
-    bottom: -5px;
-    left: 0;
-    width: 0%;
-    height: 3px;
-    transition: 0.3s ease all;
+  position: absolute;
+  content: "";
+  background-color: black;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  transition: 0.3s ease all;
 }
 
 .link-item:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 .button-menu {
-    z-index: 200;
-    width: 40px;
-    height: 40px;
-    border: none;
-    display: flex;
-    background: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    position: relative;
-    top: -100%;
-    left: -5%;
+  z-index: 200;
+  width: 40px;
+  height: 40px;
+  border: none;
+  display: flex;
+  background: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  top: -100%;
+  left: -5%;
 }
 
 .button-menu span {
-    width: 37px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    background: #ffffff;
-    border-radius: 3px;
-    transform-origin: 4px 0px;
-    transition: all .2s linear;
+  width: 37px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 3px;
+  transform-origin: 4px 0px;
+  transition: all 0.2s linear;
 }
 
 .button-menu.close span {
-    opacity: 1;
-    transform: rotate(45deg) translate(0px, 0px);
-    background: #ffffff;
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, 0px);
+  background: #ffffff;
 }
 
 .button-menu.close span:nth-child(2) {
-    transform: rotate(-45deg) translate(-8px, 5px);
+  transform: rotate(-45deg) translate(-8px, 5px);
 }
 
 .button-menu.close span:nth-child(3) {
-    display: none;
+  display: none;
 }
-
-
-
 
 @media screen and (min-width: 2650px) {
-    .button-menu {
-        display: none;
-    }
+  .button-menu {
+    display: none;
+  }
 
-    .main-logo {
-        flex-basis: 30%;
-    }
+  .main-logo {
+    flex-basis: 30%;
+  }
 
-    .main-nav {
-        position: static;
-        margin-left: 0;
-        flex-basis: 70%;
-        height: 100%;
-    }
+  .main-nav {
+    position: static;
+    margin-left: 0;
+    flex-basis: 70%;
+    height: 100%;
+  }
 
-    .nav-links {
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: flex-end;
-        background: white;
-    }
+  .nav-links {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    background: white;
+  }
 
-    .link-item {
-        display: inline-block;
-        margin-top: 0;
-        margin-right: 2rem;
-    }
-
-
+  .link-item {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 2rem;
+  }
 }
-
 
 /* ****** */
 
-
-
 .content {
-
-    box-sizing: border-box;
-    margin: 0 auto;
-    max-width: 1110px;
-    min-height: 300px;
-    width: 80%;
-    background: #f2f2f2;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1110px;
+  min-height: 300px;
+  width: 80%;
+  background: #f2f2f2;
 }
 
 .main {
-    background-color: #fff;
-    -webkit-box-shadow: 4px 4px 5px #bac2cc;
-    box-shadow: 5px 4px 28px #bac2cc;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 0px;
-    flex: 1 1 0;
-    margin: 100px 7px 30px 0;
-    padding: 10px;
-    height: 40em;
+  background-color: #fff;
+  -webkit-box-shadow: 4px 4px 5px #bac2cc;
+  box-shadow: 5px 4px 28px #bac2cc;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0;
+  margin: 100px 7px 30px 0;
+  padding: 10px;
+  height: 40em;
 }
-
 
 .contenedor {
-    margin: auto;
-    background-color: #fff;
-    box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
-    transition: all 500ms ease;
-    position: relative;
-    transform: translateY(-30%);
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+  transition: all 500ms ease;
+  position: relative;
+  transform: translateY(-30%);
 }
-
 
 .h3-contenedor2 {
-    font-size: 25px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    text-align: center;
-    color: black;
-    margin: 3%;
+  font-size: 25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  margin: 3%;
 }
 
+.cuadro {
+  display: block;
+  margin: 0px auto;
+}
 
 .p-contenedor2 {
-    font-size: 18px;
-    font-family: 'work sans';
-    font-style: normal;
-    font-weight: 600;
-    text-align: justify;
-    opacity: 93%;
-    color: #252e39eb;
-    margin: 2%;
+  font-size: 18px;
+  font-family: "work sans";
+  font-style: normal;
+  font-weight: 600;
+  text-align: justify;
+  opacity: 93%;
+  color: #252e39eb;
+  margin: 2%;
 }
-
 
 strong {
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-style: bold;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-family: "Poppins";
+  font-style: bold;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
-
-
-@media only screen and (min-width:320px) and (max-width:768px) {
-
-    .contenedor2 {
-        width: 95%;
-    }
-
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .contenedor2 {
+    width: 95%;
+  }
 }

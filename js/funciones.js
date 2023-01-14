@@ -9,8 +9,8 @@ const navWrapper = document.getElementById("nav");
   para que el menú se muestre.
 */
 toggleButton.addEventListener("click", () => {
-    toggleButton.classList.toggle("close");
-    navWrapper.classList.toggle("show");
+  toggleButton.classList.toggle("close");
+  navWrapper.classList.toggle("show");
 });
 
 /* 
@@ -18,9 +18,9 @@ toggleButton.addEventListener("click", () => {
   el menú debe esconderse.
 */
 
-navWrapper.addEventListener("click", e => {
-    if (e.target.id === "nav") {
-        navWrapper.classList.remove("show");
-        toggleButton.classList.remove("close");
-    }
+navWrapper.addEventListener("click", (e) => {
+  if (e.target.id === "nav") {
+    navWrapper.classList.remove("show");
+    toggleButton.classList.remove("close");
+  }
 });
