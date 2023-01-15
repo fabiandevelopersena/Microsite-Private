@@ -262,3 +262,8 @@ strong {
     width: 95%;
   }
 }
+
+.cuadro {
+  display: block;
+  margin: 0px auto;
+}
