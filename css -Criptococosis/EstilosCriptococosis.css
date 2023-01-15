@@ -1022,8 +1022,8 @@ p {
 }
 
 .contenedor {
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   background-color: #fff;
   box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
   transition: all 500ms ease;
@@ -1085,8 +1085,8 @@ p {
   border-radius: 10px;
   cursor: pointer;
   position: relative;
-  top: 6em;
-  left: 7%;
+  top: 17em;
+  left: -7%;
   font-size: 18px;
   color: rgba(12, 46, 109, 1);
   text-shadow: rgba(179, 179, 180, 0.781) 0.4em 0.3em 0.6em;
@@ -1241,369 +1241,370 @@ p {
 
 /* <!-- Slider Enfermedades  --> */
 
-a {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	a {
+		color: rgba(12, 46, 109, 1);
+		text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+	}
 
-#tut a {
-  text-decoration: none;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	#tut a {
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  height: 100%;
-  background-color: #000;
-  min-height: 700px;
-  overflow: hidden;
-}
+	.container {
+		width: 100%;
+		margin: 0 auto;
+		position: relative;
+		height: 100%;
+		background-color: rgb(255, 255, 255);
+		min-height: 700px;
+		overflow: hidden;
+	}
 
-.fungicas {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-  text-align: center;
-  font-size: 2em;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  align-items: center;
-  z-index: 120;
-  position: absolute;
-  top: 10%;
-  left: 36%;
-}
+	.fungicas {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+		text-align: center;
+		font-size: 2em;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		align-items: center;
+		z-index: 120;
+		position: absolute;
+		top: 10%;
+		left: 38%;
+	}
 
-.t-box {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-  text-align: center;
-  align-items: center;
-  margin-left: 0.7em;
-  font-size: 1em;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-}
+	.t-box {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+		text-align: center;
+		align-items: center;
+		margin-left: 0.7em;
+		font-size: 1em;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+	}
 
-.fungicas2 {
-  text-align: center;
-  font-size: 1.7em;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  align-items: center;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-  z-index: 190;
-  position: absolute;
-  top: -100%;
-  left: 44%;
-}
+	.fungicas2 {
+		text-align: center;
+		font-size: 1.7em;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		align-items: center;
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+		z-index: 190;
+		position: absolute;
+		top: -106%;
+		left: 44%;
+	}
 
-.fungicas3 {
-  text-align: center;
-  font-size: 1.7em;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-  position: absolute;
-  top: -100%;
-  left: 40%;
-  z-index: 190;
-}
+	.fungicas3 {
+		text-align: center;
+		font-size: 1.7em;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		align-items: center;
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+		position: absolute;
+		top: -106%;
+		left: 40%;
+		z-index: 190;
+	}
 
-.fungicas4 {
-  text-align: center;
-  font-size: 1.7em;
-  margin-top: 5%;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  align-items: center;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-  z-index: 190;
-  position: absolute;
-  top: -110%;
-  left: 40%;
-}
+	.fungicas4 {
+		text-align: center;
+		font-size: 1.7em;
+		margin-top: 5%;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		align-items: center;
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+		z-index: 190;
+		position: absolute;
+		top: -120%;
+		left: 40%;
+	}
 
-.fungicas5 {
-  text-align: center;
-  font-size: 1.7em;
-  margin-top: 5%;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  align-items: center;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-  z-index: 190;
-  position: absolute;
-  top: -368%;
-  left: 40%;
-}
+	.fungicas5 {
+		text-align: center;
+		font-size: 1.7em;
+		margin-top: 5%;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		align-items: center;
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+		z-index: 190;
+		position: absolute;
+		top: -378%;
+		left: 40%;
+	}
 
-.fungicas6 {
-  text-align: center;
-  font-size: 1.7em;
-  margin-top: 5%;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  align-items: center;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-  z-index: 190;
-  position: absolute;
-  top: -120%;
-  left: 44%;
-}
+	.fungicas6 {
+		text-align: center;
+		font-size: 1.7em;
+		margin-top: 5%;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		align-items: center;
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+		z-index: 190;
+		position: absolute;
+		top: -120%;
+		left: 44%;
+	}
 
-#third:checked ~ #labels label,
-#sixth:checked ~ #labels label {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	#third:checked ~ #labels label,
+	#sixth:checked ~ #labels label {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.one h1,
-.one h2,
-#first:checked ~ #labels label.first {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	.one h1,
+	.one h2,
+	#first:checked ~ #labels label.first {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.two h1,
-.two h2,
-#second:checked ~ #labels label.second {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	.two h1,
+	.two h2,
+	#second:checked ~ #labels label.second {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.three h1,
-.three h2,
-#third:checked ~ #labels label.third {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	.three h1,
+	.three h2,
+	#third:checked ~ #labels label.third {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.four h1,
-.four h2,
-#fourth:checked ~ #labels label.fourth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	.four h1,
+	.four h2,
+	#fourth:checked ~ #labels label.fourth {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.five h1,
-.five h2,
-#fifth:checked ~ #labels label.fifth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	.five h1,
+	.five h2,
+	#fifth:checked ~ #labels label.fifth {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.six h1,
-.six h2,
-#sixth:checked ~ #labels label.sixth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	.six h1,
+	.six h2,
+	#sixth:checked ~ #labels label.sixth {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.seven h1,
-.seven h2,
-#seventh:checked ~ #labels label.seventh {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	.seven h1,
+	.seven h2,
+	#seventh:checked ~ #labels label.seventh {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.eight h1,
-.eight h2,
-#eighth:checked ~ #labels label.eighth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	.eight h1,
+	.eight h2,
+	#eighth:checked ~ #labels label.eighth {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-.nine h1,
-.nine h2,
-#nineth:checked ~ #labels label.nineth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
+	.nine h1,
+	.nine h2,
+	#nineth:checked ~ #labels label.nineth {
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+	}
 
-input[type="radio"] {
-  display: none;
-}
+	input[type='radio'] {
+		display: none;
+	}
 
-label {
-  display: inline-block;
-  margin-right: 40px;
-  cursor: pointer;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.4em 0.4em 0.4em;
-  font-size: 22px;
-  font-family: Arial;
-  font-weight: 500;
-}
+	label {
+		display: inline-block;
+		margin-right: 40px;
+		cursor: pointer;
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+		font-size: 22px;
+		font-family: Arial;
+		font-weight: 500;
+	}
 
-#labels {
-  position: absolute;
-  bottom: 7%;
-  left: 3%;
-  width: 100%;
-  z-index: 100;
-  text-align: center;
-}
+	#labels {
+		position: absolute;
+		bottom: 7%;
+		left: 3%;
+		width: 100%;
+		z-index: 100;
+		text-align: center;
+	}
 
-.slide {
-  width: 100%;
-  position: absolute;
-  opacity: 0;
-  transition: all 0.3s ease-in;
-  height: 100%;
-}
+	.slide {
+		width: 100%;
+		position: absolute;
+		opacity: 0;
+		transition: all 0.3s ease-in;
+		height: 100%;
+	}
 
-.slide div {
-  margin: 0;
-  padding: 30px;
-  width: 100%;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-  position: relative;
-  transition: background-color 0.3s linear;
-  height: 100%;
-}
+	.slide div {
+		margin: 0;
+		padding: 30px;
+		width: 100%;
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+		position: relative;
+		transition: background-color 0.3s linear;
+		height: 100%;
+	}
 
-.one div {
-}
+	.one div {
+	}
 
-.one-img {
-  width: 2800px;
-  height: 850px;
-  position: relative;
-  left: -50px;
-  top: -85px;
-  background-color: #bad5f7;
-}
+	.one-img {
+		width: 2800px;
+		height: 850px;
+		position: relative;
+		left: -50px;
+		top: -85px;
+		background-color: #bad5f7;
+	}
 
-.two div {
-}
+	.two div {
+	}
 
-.two-img {
-  width: 2800px;
-  height: 850px;
-  position: relative;
-  left: -50px;
-  top: -85px;
-  background-color: #f1e7ff;
-}
+	.two-img {
+		width: 2800px;
+		height: 850px;
+		position: relative;
+		left: -50px;
+		top: -85px;
+		background-color: #f1e7ff;
+	}
 
-.three div {
-}
+	.three div {
+	}
 
-.three-img {
-  width: 2800px;
-  height: 850px;
-  position: relative;
-  left: -50px;
-  top: -85px;
-  background-color: #9facda;
-}
+	.three-img {
+		width: 2800px;
+		height: 850px;
+		position: relative;
+		left: -50px;
+		top: -85px;
+		background-color: #9facda;
+	}
 
-.four div {
-}
+	.four div {
+	}
 
-.four-img {
-  width: 2800px;
-  height: 850px;
-  position: relative;
-  left: -50px;
-  top: -85px;
-  background-color: #d5eada;
-}
+	.four-img {
+		width: 2800px;
+		height: 850px;
+		position: relative;
+		left: -50px;
+		top: -85px;
+		background-color: #d5eada;
+	}
 
-.five div {
-}
+	.five div {
+	}
 
-.five-img {
-  width: 2800px;
-  height: 850px;
-  position: relative;
-  left: -50px;
-  top: -85px;
-  background-color: #f0e3ed;
-}
+	.five-img {
+		width: 2800px;
+		height: 850px;
+		position: relative;
+		left: -50px;
+		top: -85px;
+		background-color: #f0e3ed;
+	}
 
-.six div {
-}
+	.six div {
+	}
 
-.six-img {
-  width: 2400px;
-  height: 2500px;
-  position: relative;
-  left: -50px;
-  top: -930px;
-  background-color: #c9cbc2;
-}
+	.six-img {
+		width: 2400px;
+		height: 2500px;
+		position: relative;
+		left: -50px;
+		top: -930px;
+		background-color: #c9cbc2;
+	}
 
-.seven div {
-}
+	.seven div {
+	}
 
-.seven-img {
-  width: 2800px;
-  height: 850px;
-  position: relative;
-  left: -50px;
-  top: -86px;
-  background-color: #e2cfe2;
-}
+	.seven-img {
+		width: 2800px;
+		height: 850px;
+		position: relative;
+		left: -50px;
+		top: -86px;
+		background-color: #e2cfe2;
+	}
 
-.eight div {
-}
+	.eight div {
+	}
 
-.eight-img {
-  width: 2800px;
-  height: 850px;
-  position: relative;
-  left: -50px;
-  top: -86px;
-  background-color: #cfdab5;
-}
+	.eight-img {
+		width: 2800px;
+		height: 850px;
+		position: relative;
+		left: -50px;
+		top: -86px;
+		background-color: #cfdab5;
+	}
 
-.nine div {
-}
+	.nine div {
+	}
 
-.nine-img {
-  width: 2800px;
-  height: 850px;
-  position: relative;
-  left: -50px;
-  top: -86px;
-  background-color: #ffffd8;
-}
+	.nine-img {
+		width: 2800px;
+		height: 850px;
+		position: relative;
+		left: -50px;
+		top: -86px;
+		background-color: #ffffd8;
+	}
 
-/* img {
+	/*  img {
     display: block;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 60px;
 } */
 
-#first:checked ~ div.one,
-#fourth:checked ~ div.four,
-#second:checked ~ div.two,
-#third:checked ~ div.three,
-#fifth:checked ~ div.five,
-#sixth:checked ~ div.six,
-#seventh:checked ~ div.seven,
-#eighth:checked ~ div.eight,
-#nineth:checked ~ div.nine {
-  opacity: 1;
-}
+	#first:checked ~ div.one,
+	#fourth:checked ~ div.four,
+	#second:checked ~ div.two,
+	#third:checked ~ div.three,
+	#fifth:checked ~ div.five,
+	#sixth:checked ~ div.six,
+	#seventh:checked ~ div.seven,
+	#eighth:checked ~ div.eight,
+	#nineth:checked ~ div.nine {
+		opacity: 1;
+	}
 
-/* ******* */
+	/* ******* */
+
