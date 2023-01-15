@@ -350,8 +350,8 @@ a {
 
 #tut a {
   text-decoration: none;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .container {
@@ -359,34 +359,34 @@ a {
   margin: 0 auto;
   position: relative;
   height: 100%;
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   min-height: 700px;
   overflow: hidden;
 }
 
 .fungicas {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   text-align: center;
   font-size: 2em;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   align-items: center;
   z-index: 120;
   position: absolute;
   top: 10%;
-  left: 36%;
+  left: 38%;
 }
 
 .t-box {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   text-align: center;
   align-items: center;
   margin-left: 0.7em;
   font-size: 1em;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
 }
@@ -394,29 +394,29 @@ a {
 .fungicas2 {
   text-align: center;
   font-size: 1.7em;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   align-items: center;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   z-index: 190;
   position: absolute;
-  top: -100%;
+  top: -106%;
   left: 44%;
 }
 
 .fungicas3 {
   text-align: center;
   font-size: 1.7em;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   align-items: center;
   color: rgb(255, 255, 255);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   position: absolute;
-  top: -100%;
+  top: -106%;
   left: 40%;
   z-index: 190;
 }
@@ -425,15 +425,15 @@ a {
   text-align: center;
   font-size: 1.7em;
   margin-top: 5%;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   align-items: center;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   z-index: 190;
   position: absolute;
-  top: -110%;
+  top: -120%;
   left: 40%;
 }
 
@@ -441,15 +441,15 @@ a {
   text-align: center;
   font-size: 1.7em;
   margin-top: 5%;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   align-items: center;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   z-index: 190;
   position: absolute;
-  top: -368%;
+  top: -378%;
   left: 40%;
 }
 
@@ -457,12 +457,12 @@ a {
   text-align: center;
   font-size: 1.7em;
   margin-top: 5%;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   align-items: center;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   z-index: 190;
   position: absolute;
   top: -120%;
@@ -471,74 +471,74 @@ a {
 
 #third:checked ~ #labels label,
 #sixth:checked ~ #labels label {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .one h1,
 .one h2,
 #first:checked ~ #labels label.first {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .two h1,
 .two h2,
 #second:checked ~ #labels label.second {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .three h1,
 .three h2,
 #third:checked ~ #labels label.third {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .four h1,
 .four h2,
 #fourth:checked ~ #labels label.fourth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .five h1,
 .five h2,
 #fifth:checked ~ #labels label.fifth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .six h1,
 .six h2,
 #sixth:checked ~ #labels label.sixth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .seven h1,
 .seven h2,
 #seventh:checked ~ #labels label.seventh {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .eight h1,
 .eight h2,
 #eighth:checked ~ #labels label.eighth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
 .nine h1,
 .nine h2,
 #nineth:checked ~ #labels label.nineth {
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
-input[type="radio"] {
+input[type='radio'] {
   display: none;
 }
 
@@ -546,8 +546,8 @@ label {
   display: inline-block;
   margin-right: 40px;
   cursor: pointer;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(133, 133, 133) 0.4em 0.4em 0.4em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   font-size: 22px;
   font-family: Arial;
   font-weight: 500;
@@ -574,8 +574,8 @@ label {
   margin: 0;
   padding: 30px;
   width: 100%;
-  color: rgba(12, 46, 109, 1);
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   position: relative;
   transition: background-color 0.3s linear;
   height: 100%;
@@ -689,11 +689,11 @@ label {
   background-color: #ffffd8;
 }
 
-/* img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 60px;
+/*  img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 60px;
 } */
 
 #first:checked ~ div.one,
@@ -709,3 +709,4 @@ label {
 }
 
 /* ******* */
+
