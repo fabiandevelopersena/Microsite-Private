@@ -11,6 +11,24 @@ body {
   line-height: 1.3;
 }
 
+body::-webkit-scrollbar{
+    width: 8px;
+    /* background: #14213Da0 ; */
+    margin: 20px;
+	
+}
+
+body::-webkit-scrollbar-thumb{
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 0.623) 0%,
+		rgba(12, 46, 109, 1) 100%
+	);
+    border-radius: 5px;
+ 
+
+}
+
 header {
   position: relative;
   position: fixed;
