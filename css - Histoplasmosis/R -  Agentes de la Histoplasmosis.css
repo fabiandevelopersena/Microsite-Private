@@ -46,7 +46,7 @@
 	}
 
 	.sidebar {
-		width: 90%;
+		width: 80%;
 		background-color: #54a;
 		transition: 1s ease;
 		position: relative;
@@ -100,9 +100,7 @@
 		justify-content: space-evenly;
 	}
 
-	span {
-		margin-left: -15%;
-	}
+	
 }
 
 

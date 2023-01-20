@@ -154,7 +154,9 @@ header.bg-33 {
   position: relative;
   top: -100%;
   left: -5%;
+  box-shadow: none;
 }
+
 
 .button-menu span {
   width: 37px;
@@ -213,17 +215,18 @@ header.bg-33 {
   }
 }
 
+
 /* ****** */
 
-.content {
+/* .content {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1110px;
   min-height: 300px;
   width: 80%;
   background: #f2f2f2;
-}
-
+} */
+/* 
 .main {
   background-color: #fff;
   -webkit-box-shadow: 4px 4px 5px #bac2cc;
@@ -233,50 +236,130 @@ header.bg-33 {
   flex: 1 1 0;
   margin: 100px 7px 30px 0;
   padding: 10px;
-  height: 100em;
-}
+  height: 65em;
+} */
 
 .contenedor {
-  margin: auto;
-  background-color: #fff;
-  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
-  transition: all 500ms ease;
-  position: relative;
-  transform: translateY(-30%);
+	margin: auto;
+	background-color: #fff;
+	box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
 }
 
 .h3-contenedor2 {
-  font-size: 25px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  text-align: center;
-  color: black;
-  margin: 3%;
+	font-size: 25px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	color: black;
+	margin: 3%;
 }
 
 .p-contenedor2 {
-  font-size: 18px;
-  font-family: "work sans";
-  font-style: normal;
-  font-weight: 600;
-  text-align: justify;
-  opacity: 93%;
-  color: #252e39eb;
-  margin: 2%;
+	font-size: 18px;
+	font-family: 'work sans';
+	font-style: normal;
+	font-weight: 600;
+	text-align: justify;
+	opacity: 93%;
+	color: #252e39eb;
+	margin: 2%;
 }
 
 strong {
-  font-size: 18px;
-  font-family: "Poppins";
-  font-style: bold;
-  font-weight: bold;
-  text-align: center;
-  color: rgb(0, 0, 0);
+	font-size: 18px;
+	font-family: 'Poppins';
+	font-style: bold;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(0, 0, 0);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .contenedor2 {
-    width: 95%;
-  }
+	.contenedor2 {
+		width: 95%;
+	}
+}
+
+.cuadro {
+	display: block;
+	margin: 0px auto;
+}
+
+/* ******************* */
+.grid-container {
+	width: 90vw;
+	height: 100%;
+	display: flex;
+	border: 2px solid rgba(0, 0, 0, 0.13);
+	transition: 1s ease;
+	margin: 150px auto;
+	box-shadow: 5px 4px 28px #bac2cc;
+	border-radius: 0px 50px;
+}
+
+.sidebar {
+	width: 60%;
+	background: linear-gradient(
+		0deg,
+		rgba(6, 16, 41, 1) 0%,
+		rgba(12, 46, 109, 1) 100%
+	);
+	transition: 1s ease;
+	position: relative;
+	border-radius: 0px 50px;
+}
+
+.main-content_large {
+	width: 90%;
+}
+
+.sidebar_small {
+	width: 10%;
+}
+
+button {
+	position: absolute;
+	border: none;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	box-shadow: 3px 2px 10px #bac2cc;
+	background-color: #cfdab5;
+	left: 100%;
+	top: 2rem;
+	transform: translateX(-50%);
+}
+
+.circle {
+	background-repeat: no-repeat;
+	object-fit: cover;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+
+a {
+	display: flex;
+	flex-direction: column;
+	align-items: initial;
+	margin-left: 10%;
+	color: aliceblue;
+	text-decoration: none;
+	margin-top: 3.7rem;
+}
+
+.nav_link {
+	font-size: large;
+	display: flex;
+	color: aliceblue;
+	text-decoration: none;
+	margin-top: 3.5rem;
+}
+
+span {
+	margin-left: 5%;
 }
