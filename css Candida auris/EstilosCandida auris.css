@@ -270,7 +270,7 @@ header.bg-33 {
 
 .text-section {
 	background-color: #ffffff;
-	height: 40rem;
+	height: 10rem;
 	position: relative;
 	top: 1em;
 }
@@ -387,7 +387,7 @@ p {
 	border-radius: 10px;
 	cursor: pointer;
 	position: relative;
-	top: -4%;
+	top: -2%;
 	left: -3%;
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
@@ -403,7 +403,7 @@ p {
 /* 3 */
 
 .cdm3 {
-	width: 28%;
+	width: 18%;
 	object-fit: cover;
 	position: relative;
 	top: -6%;
@@ -489,8 +489,8 @@ p {
 	border-radius: 10px;
 	cursor: pointer;
 	position: relative;
-	top: -4%;
-	left: 5%;
+	top: -2%;
+	left: 9%;
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
 	text-shadow: none;
@@ -508,8 +508,8 @@ p {
 	width: 28%;
 	object-fit: cover;
 	position: relative;
-	top: 3%;
-	left: 60%;
+	top: 35%;
+	left: 5%;
 }
 
 .modal4 {
@@ -591,8 +591,8 @@ p {
 	border-radius: 10px;
 	cursor: pointer;
 	position: relative;
-	top: 7%;
-	left: 42%;
+	top: 13%;
+	left: 83%;
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
 	text-shadow: none;
@@ -610,8 +610,8 @@ p {
 	width: 28%;
 	object-fit: cover;
 	position: relative;
-	top: 3%;
-	left: -30%;
+	top: 4%;
+	left: 21%;
 }
 
 .modal5 {
@@ -693,8 +693,8 @@ p {
 	border-radius: 10px;
 	cursor: pointer;
 	position: relative;
-	top: 7%;
-	left: -54%;
+	top: 13%;
+	left: -2%;
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
 	text-shadow: none;
@@ -705,6 +705,209 @@ p {
 		width: 95%;
 	}
 }
+
+/* 6 */
+
+.cdm6 {
+	width: 28%;
+	object-fit: cover;
+	position: relative;
+	top: 6%;
+	left: -64%;
+}
+
+.modal6 {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	background: rgba(0, 0, 0, 0.35);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 90;
+	overflow: scroll;
+}
+
+#btn-modal6:checked ~ .modal6 {
+	opacity: 1;
+	visibility: visible;
+}
+
+.contenedor6 {
+	width: 700px;
+	height: 500px;
+	margin: auto;
+	background-color: #fff;
+	box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+}
+
+#btn-modal6:checked ~ .modal6 .contenedor6 {
+	transform: translateY(0%);
+}
+
+.contenedor6 label {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	color: rgba(6, 16, 41, 1);
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.contenido6 {
+	width: 100%;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.contenido6 .h3-contenedor6 {
+	font-size: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	position: relative;
+	left: -2%;
+	top: 4em;
+}
+
+.contenido6 .p-contenedor6 {
+	font-size: 16px;
+	font-family: 'work sans';
+	font-style: normal;
+	font-weight: 600;
+	text-align: justify;
+	position: relative;
+	left: -1%;
+	top: 5em;
+}
+
+#btn-modal6 {
+	display: none;
+}
+
+.lbl-modal6 {
+	text-decoration: underline;
+	padding: 10px 15px;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	top: 7%;
+	left: 4%;
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.826);
+	text-shadow: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.contenedor6 {
+		width: 95%;
+	}
+}
+
+
+/*  */
+
+.modal {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	background: rgba(0, 0, 0, 0.35);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 80;
+	margin: 2%;
+   
+  }
+  
+  #btn-modal:checked ~ .modal {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  .contenedor {
+	width: 600px;
+	height: 600px;
+	background-color: #fff;
+	box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+	overflow: scroll;
+  }
+  
+  #btn-modal:checked ~ .modal .contenedor {
+	transform: translateY(0%);
+  }
+  
+  .contenedor label {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	color: rgba(6, 16, 41, 1);
+	font-size: 20px;
+	cursor: pointer;
+   
+  }
+  
+  .contenido {
+	width: 100%;
+	padding: 10px;
+	height: 1200px;
+  }
+  
+  .contenido .h3-contenedor {
+	font-size: 20px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	position: relative;
+	left: -2%;
+	top: 3em;
+  }
+  
+  .contenido .p-contenedor {
+	font-size: 16px;
+	font-family: "work sans";
+	font-style: normal;
+	font-weight: 600;
+	text-align: justify;
+	position: relative;
+	left: -1%;
+	top: 2em;
+	
+  }
+  
+  #btn-modal {
+	display: none;
+  }
+  
+  .lbl-modal {
+	text-decoration: underline;
+	padding: 10px 15px;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	top: 10em;
+	left: -17.4%;
+	font-size: 18px;
+	color: rgba(12, 46, 109, 1);
+	text-shadow: rgba(179, 179, 180, 0.781) 0.4em 0.3em 0.6em;
+	z-index: 80;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+	.contenedor {
+	  width: 95%;
+	}
+  }
+  
+  
 
 /* ****** */
 

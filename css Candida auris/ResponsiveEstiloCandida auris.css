@@ -83,7 +83,7 @@
 	/* 3 */
 
 	.cdm3 {
-		width: 28%;
+		width: 18%;
 		object-fit: cover;
 		position: relative;
 		top: -20%;
@@ -110,7 +110,7 @@
 		object-fit: cover;
 		position: relative;
 		top: 40%;
-		left: -11%;
+		left: 15%;
 		z-index: 10;
 	}
 
@@ -120,8 +120,8 @@
 		border-radius: 10px;
 		cursor: pointer;
 		position: relative;
-		top: 3%;
-		left: 68.5%;
+		top: 44.8%;
+		left: -2%;
 		font-size: 18px;
 		color: rgba(0, 0, 0, 0.826);
 		text-shadow: none;
@@ -135,7 +135,7 @@
 		object-fit: cover;
 		position: relative;
 		top: -3%;
-		left: -2%;
+		left: 35%;
 		z-index: 10;
 	}
 
@@ -146,7 +146,7 @@
 		cursor: pointer;
 		position: relative;
 		top: 2%;
-		left: -23%;
+		left: 14%;
 		font-size: 18px;
 		color: rgba(0, 0, 0, 0.826);
 		text-shadow: none;
@@ -159,8 +159,8 @@
 		width: 27%;
 		object-fit: cover;
 		position: relative;
-		top: 10%;
-		left: 0;
+		top: 0%;
+		left: -45%;
 		z-index: 20;
 	}
 
@@ -170,8 +170,8 @@
 		border-radius: 10px;
 		cursor: pointer;
 		position: relative;
-		top: 13%;
-		left: -18%;
+		top: 2%;
+		left: -67%;
 		font-size: 18px;
 		color: rgba(0, 0, 0, 0.826);
 		text-shadow: none;
@@ -329,6 +329,107 @@
 			width: 95%;
 		}
 	}
+
+	/*  */
+
+.modal {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	background: rgba(0, 0, 0, 0.35);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 80;
+	margin: 2%;
+
+}
+
+#btn-modal:checked~.modal {
+	opacity: 1;
+	visibility: visible;
+}
+
+.contenedor {
+	width: 700px;
+	height: 700px;
+	background-color: #fff;
+	box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+	overflow: scroll;
+}
+
+#btn-modal:checked~.modal .contenedor {
+	transform: translateY(0%);
+}
+
+.contenedor label {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	color: rgba(6, 16, 41, 1);
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+.contenido {
+	width: 100%;
+	padding: 10px;
+	height: 1200px;
+}
+
+.contenido .h3-contenedor {
+	font-size: 20px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	position: relative;
+	left: -2%;
+	top: 3em;
+}
+
+.contenido .p-contenedor {
+	font-size: 16px;
+	font-family: "work sans";
+	font-style: normal;
+	font-weight: 600;
+	text-align: justify;
+	position: relative;
+	left: -1%;
+	top: 2em;
+
+}
+
+#btn-modal {
+	display: none;
+}
+
+.lbl-modal {
+	text-decoration: underline;
+	padding: 10px 15px;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	top: 5em;
+	left: 4%;
+	font-size: 18px;
+	color: rgba(12, 46, 109, 1);
+	text-shadow: rgba(179, 179, 180, 0.781) 0.4em 0.3em 0.6em;
+	z-index: 80;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.contenedor {
+		width: 95%;
+	}
+}
+
+
+	/* ****** */
 
 	/* ****** */
 
