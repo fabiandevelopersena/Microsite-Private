@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enfermedades fúngicas y COVID-19</title>
-    <link rel="stylesheet" href="./css/Enfermedades fúngicas y covid-19.css" />
-    <link rel="stylesheet" href="/css/R Enfermedades fúngicas y COVID-19.css" />
+
+    <link
+      rel="stylesheet"
+      href="/css/Clasificacion de Micosis.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/R Clasificación de Micosis.css"
+    />
     <link
       rel="shortcut icon"
-      href="./Assets/LOGO MICOLOGIA AZUL.png"
+      href="/Assets/LOGO MICOLOGIA AZUL.png"
       type="image/x-icon"
     />
   </head>
@@ -18,12 +25,12 @@
     <header class="bg-33">
       <div class="main-header">
         <a href="https://www.ins.gov.co/Paginas/inicio.aspx">
-          <img class="img-gov" src="./assets/LogoGov.png" alt=""
+          <img class="img-gov" src="/assets/LogoGov.png" alt=""
         /></a>
-        <a href="./Home.html"
+        <a href="/Home.html"
           ><img
             class="icon-enfermedades"
-            src="./assets/logo blanco 70x70 mobile.png"
+            src="/assets/logo blanco 70x70 mobile.png"
             alt=""
         /></a>
         <nav id="nav" class="main-nav">
@@ -69,12 +76,39 @@
       </div>
     </header>
 
-    <div class="content">
-      <div class="main">
-        <div class="contenido2">
-          <h3 class="h3-contenedor2">Enfermedades fúngicas y COVID-19</h3>
+    <div class="grid-container">
+      <div class="sidebar">
+				<button class="button-enfermedad" >
+					<img class="circle" src="/assets/cintilla esporotricosis escritorio.svg" alt="" />
+				</button>
+
+        <a href="Home.html" class="nav_link" >
+         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-sign-turn-left" viewBox="0 0 16 16">
+            <path d="M11 8.5A2.5 2.5 0 0 0 8.5 6H7V4.534a.25.25 0 0 0-.41-.192L4.23 6.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 7 8.466V7h1.5A1.5 1.5 0 0 1 10 8.5V11h1V8.5Z"/>
+            <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435Zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134Z"/>
+          </svg>
+          <span>Home</span>
+        </a>
+
+				<a href="Clasificacion de Micosis.html" onclick="Ocultar('ejemplo'); return false;">Clasificación de Micosis</a>
+				<a href="Quién puede contraer infecciones fúngicas.html" onclick="Ocultar('ejemplo2'); return false;">¿Quién puede contraer infecciones fúngicas?</a>
+				<a href="Brotes causados por hongos.html" onclick="Ocultar('ejemplo3'); return false;">Brotes causados por hongos</a>
+        <a href="Resistencia antifúngica.html" onclick="Ocultar('ejemplo3'); return false;">Resistencia antifúngica</a>
+        <a href="Enfermedades fúngicas y covid-19.html" onclick="Ocultar('ejemplo3'); return false;">Enfermedades fúngicas y COVID-19</a>
+        <a href="Tipificación molecular en hongos de  importancia en salud pública.html" onclick="Ocultar('ejemplo3'); return false;">Tipificación molecular en hongos de
+          importancia en salud pública</a>
+        
+			</div>
+
+      <div class="main-content">
+
+        <h3 class="h3-contenedor2">Enfermedades fúngicas y COVID-19
+        </h3>
           <p class="p-contenedor2">
-            La infección por el virus del SARS-CoV-2 causante de la pandemia del
+    
+
+          <br /><br />
+          La infección por el virus del SARS-CoV-2 causante de la pandemia del
             COVID-19, puede desencadenar en algunos individuos una enfermedad
             respiratoria severa que afecta diferentes órganos y sistemas; este
             síndrome es especialmente importante en personas con condiciones
@@ -157,7 +191,7 @@
             lineamientos del INS <br /><br />
             (
             <strong
-              ><a
+              ><a style="color: blue;"
                 href=" https://www.ins.gov.co/BibliotecaDigital/comunicado-lineamiento-mucormicosis-asociada-con-la-covid-19-cam.pdf"
               >
                 https://www.ins.gov.co/BibliotecaDigital/comunicado-lineamiento-mucormicosis-asociada-con-la-covid-19-cam.pdf</a
@@ -291,12 +325,25 @@
             14. Verweij PE, Gangneu J, Bassetti M, Bruggemann RJM, Cornely OA,
             Koehler P, et al. Diagnosing COVID-19-associated pulmonary
             aspergilosis. Lancet Microbe. 2020; 1(2): e53-e55
-            <br />
+        </p>
+
+          <br />
+
+
+
+
+            <br><br><br><br><br><br>
           </p>
+
+          </div>
         </div>
       </div>
     </div>
-
-    <script src="./js/funciones.js"></script>
+    
+    
+    
+    <script src="/js/funciones.js"></script>
   </body>
 </html>
+
+

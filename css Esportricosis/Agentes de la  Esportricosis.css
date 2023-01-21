@@ -328,7 +328,11 @@ button {
 	width: 60px;
 	border-radius: 50%;
 	box-shadow: 3px 2px 10px #bac2cc;
-	background-color: #9facda;
+	background: linear-gradient(
+		0deg,
+		rgba(6, 16, 41, 1) 0%,
+		rgba(12, 46, 109, 1) 100%
+	);
 	left: 100%;
 	top: 2rem;
 	transform: translateX(-50%);
