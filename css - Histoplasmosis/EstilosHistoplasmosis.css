@@ -270,7 +270,7 @@ header.bg-33 {
 
 .text-section {
   background-color: #ffffff;
-  height: 40rem;
+  height: 109rem;
   position: relative;
   top: 1em;
 }
@@ -297,7 +297,7 @@ p {
 
 .imagenes {
   margin: 0% 5%;
-  height: 130rem;
+  height: 100rem;
 }
 
 .cdm2 {
@@ -403,12 +403,13 @@ p {
 /* 3 */
 
 .cdm3 {
-  width: 28%;
-  height: 10%;
+  width: 30%;
+  height: 16%;
   object-fit: cover;
   position: relative;
   top: -6.5%;
   left: 0;
+  
 }
 
 .modal3 {
@@ -509,8 +510,8 @@ p {
   width: 28%;
   object-fit: cover;
   position: relative;
-  top: -19%;
-  left: 72%;
+  top: -23%;
+  left: 73%;
 }
 
 .modal4 {
@@ -592,7 +593,7 @@ p {
   border-radius: 10px;
   cursor: pointer;
   position: relative;
-  top: -16%;
+  top: -19.6%;
   left: 53%;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.826);
@@ -611,8 +612,8 @@ p {
   width: 28%;
   object-fit: cover;
   position: relative;
-  top: 10%;
-  left: -30%;
+  top: 15%;
+  left: -5%;
 }
 
 .modal5 {
@@ -694,8 +695,8 @@ p {
   border-radius: 10px;
   cursor: pointer;
   position: relative;
-  top: 13%;
-  left: -55%;
+  top: 18%;
+  left: -28%;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.826);
   text-shadow: none;
@@ -713,7 +714,7 @@ p {
   width: 27%;
   object-fit: cover;
   position: relative;
-  top: 25%;
+  top: 36%;
   left: 0;
 }
 
@@ -796,11 +797,12 @@ p {
   border-radius: 10px;
   cursor: pointer;
   position: relative;
-  top: 26.8%;
+  top: 41%;
   left: -21%;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.826);
   text-shadow: none;
+  z-index: 70;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -815,7 +817,7 @@ p {
   width: 18%;
   object-fit: cover;
   position: relative;
-  top: 24%;
+  top: 38%;
   left: 1%;
 }
 
@@ -898,11 +900,12 @@ p {
   border-radius: 10px;
   cursor: pointer;
   position: relative;
-  top: 26.8%;
-  left: -14%;
+  top: 41%;
+  left: -15%;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.826);
   text-shadow: none;
+  z-index: 70;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -917,7 +920,7 @@ p {
   width: 20%;
   object-fit: cover;
   position: relative;
-  top: 24%;
+  top: 38%;
   left: 5%;
   z-index: 10;
 }
@@ -1001,11 +1004,12 @@ p {
   border-radius: 10px;
   cursor: pointer;
   position: relative;
-  top: 10%;
+  top: 38.1%;
   left: 84%;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.826);
   text-shadow: none;
+  z-index: 70;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -1319,6 +1323,107 @@ p {
     width: 95%;
   }
 }
+
+
+/*  */
+
+.modal {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	background: rgba(0, 0, 0, 0.35);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 80;
+	margin: 2%;
+   
+  }
+  
+  #btn-modal:checked ~ .modal {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  .contenedor {
+	width: 600px;
+	height: 600px;
+	background-color: #fff;
+	box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+	overflow: scroll;
+  }
+  
+  #btn-modal:checked ~ .modal .contenedor {
+	transform: translateY(0%);
+  }
+  
+  .contenedor label {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	color: rgba(6, 16, 41, 1);
+	font-size: 20px;
+	cursor: pointer;
+   
+  }
+  
+  .contenido {
+	width: 100%;
+	padding: 10px;
+	height: 1200px;
+  }
+  
+  .contenido .h3-contenedor {
+	font-size: 20px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	position: relative;
+	left: -2%;
+	top: 3em;
+  }
+  
+  .contenido .p-contenedor {
+	font-size: 16px;
+	font-family: "work sans";
+	font-style: normal;
+	font-weight: 600;
+	text-align: justify;
+	position: relative;
+	left: -1%;
+	top: 2em;
+	
+  }
+  
+  #btn-modal {
+	display: none;
+  }
+  
+  .lbl-modal {
+	text-decoration: underline;
+	padding: 10px 15px;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	top: 36em;
+	left: -7%;
+	font-size: 18px;
+	color: rgba(12, 46, 109, 1);
+	text-shadow: rgba(179, 179, 180, 0.781) 0.4em 0.3em 0.6em;
+	z-index: 80;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+	.contenedor {
+	  width: 95%;
+	}
+  }
+  
+  
 
 /* ****** */
 

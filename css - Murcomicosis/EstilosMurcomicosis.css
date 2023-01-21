@@ -269,7 +269,7 @@ header.bg-33 {
 
 .text-section {
 	background-color: #ffffff;
-	height: 60rem;
+	height: 90rem;
 	position: relative;
 	top: 1em;
 }
@@ -608,7 +608,7 @@ p {
 	object-fit: cover;
 	position: relative;
 	top: 3%;
-	left: -30%;
+	left: -6%;
 }
 
 .modal5 {
@@ -691,7 +691,7 @@ p {
 	cursor: pointer;
 	position: relative;
 	top: 7%;
-	left: -55%;
+	left: -30%;
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
 	text-shadow: none;
@@ -997,7 +997,7 @@ p {
 	border-radius: 10px;
 	cursor: pointer;
 	position: relative;
-	top: -11.4%;
+	top: 12.2%;
 	left: 85%;
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
@@ -1010,13 +1010,120 @@ p {
 	}
 }
 
-/* 9 */
 
-.cdm9 {
+
+/*  */
+
+.modal {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	background: rgba(0, 0, 0, 0.35);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 80;
+	margin: 2%;
+   
+  }
+  
+  #btn-modal:checked ~ .modal {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  .contenedor {
+	width: 600px;
+	height: 600px;
+	background-color: #fff;
+	box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+	overflow: scroll;
+  }
+  
+  #btn-modal:checked ~ .modal .contenedor {
+	transform: translateY(0%);
+  }
+  
+  .contenedor label {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	color: rgba(6, 16, 41, 1);
+	font-size: 20px;
+	cursor: pointer;
+   
+  }
+  
+  .contenido {
+	width: 100%;
+	padding: 10px;
+	height: 1200px;
+  }
+  
+  .contenido .h3-contenedor {
+	font-size: 20px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	position: relative;
+	left: -2%;
+	top: 3em;
+  }
+  
+  .contenido .p-contenedor {
+	font-size: 16px;
+	font-family: "work sans";
+	font-style: normal;
+	font-weight: 600;
+	text-align: justify;
+	position: relative;
+	left: -1%;
+	top: 2em;
+	
+  }
+  
+  #btn-modal {
+	display: none;
+  }
+  
+  .lbl-modal {
+	text-decoration: underline;
+	padding: 10px 15px;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	top: 17em;
+	left: -7%;
+	font-size: 18px;
+	color: rgba(12, 46, 109, 1);
+	text-shadow: rgba(179, 179, 180, 0.781) 0.4em 0.3em 0.6em;
+	z-index: 80;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+	.contenedor {
+	  width: 95%;
+	}
+  }
+  
+  
+  
+  
+  
+  
+  /* ****** */
+
+ /* 9 */
+
+/* .cdm9 {
 	width: 20%;
 	object-fit: cover;
 	position: relative;
-	top: -50%;
+	top: -51%;
 	left: 55%;
 }
 
@@ -1099,7 +1206,7 @@ p {
 	border-radius: 10px;
 	cursor: pointer;
 	position: relative;
-	top: -49.5%;
+	top: -50%;
 	left: 38%;
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
@@ -1110,7 +1217,7 @@ p {
 	.contenedor9 {
 		width: 95%;
 	}
-}
+} */ 
 
 /* ****** */
 
