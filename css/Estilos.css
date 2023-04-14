@@ -29,22 +29,19 @@ body {
 	overflow-x: hidden !important;
 }
 
-body::-webkit-scrollbar{
-    width: 8px;
-    /* background: #14213Da0 ; */
-    margin: 20px;
-	
+body::-webkit-scrollbar {
+	width: 8px;
+	background: #14213d6c;
+	margin: 20px;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
 	background: linear-gradient(
 		0deg,
-		rgba(255, 255, 255, 0.623) 0%,
-		rgba(12, 46, 109, 1) 100%
+		rgba(255, 255, 255, 0.856) 20%,
+		rgba(12, 46, 109, 1) 80%
 	);
-    border-radius: 5px;
- 
-
+	border-radius: 5px;
 }
 
 header {
@@ -65,7 +62,7 @@ header.bg-33 {
 		rgba(6, 16, 41, 1) 0%,
 		rgba(12, 46, 109, 1) 100%
 	);
-	border-bottom: 2px solid #444444;
+	border-bottom: 2px solid #ffffff;
 }
 
 /* logo-gov */
@@ -528,12 +525,6 @@ p {
 	text-shadow: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-	.contenedor2 {
-		width: 95%;
-	}
-}
-
 /* 3 */
 
 .cmd3 {
@@ -628,12 +619,6 @@ p {
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
 	text-shadow: none;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-	.contenedor3 {
-		width: 95%;
-	}
 }
 
 /* 4*/
@@ -732,12 +717,6 @@ p {
 	text-shadow: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-	.contenedor4 {
-		width: 95%;
-	}
-}
-
 /* 5 */
 
 .cdm5 {
@@ -832,12 +811,6 @@ p {
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
 	text-shadow: none;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-	.contenedor5 {
-		width: 95%;
-	}
 }
 
 /* 6 */
@@ -936,12 +909,6 @@ p {
 	text-shadow: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-	.contenedor6 {
-		width: 95%;
-	}
-}
-
 /* 7 */
 
 .cdm7 {
@@ -1036,12 +1003,6 @@ p {
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.826);
 	text-shadow: none;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-	.contenedor7 {
-		width: 95%;
-	}
 }
 
 /* ****** */
@@ -1423,25 +1384,57 @@ aside {
 		rgba(6, 16, 41, 1) 0%,
 		rgba(12, 46, 109, 1) 100%
 	);
-	height: 50rem;
+	height: 100%;
 	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .doctor-point {
-	height: 70%;
-	width: 70%;
-	position: absolute;
-	left: -10%;
-	top: 210em;
+	height: 40%;
+	width: 40%;
+	position: relative;
+	margin-top: 5em;
+}
+
+.doctor-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5em;
+}
+
+.doctor-info h2 {
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+}
+
+.doctor-info2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5em;
+}
+
+.doctor-info2 h2 {
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
 }
 
 .btn {
 	cursor: pointer;
-	margin: 10px;
+	margin-top: 1em;
 	border-radius: 5px;
 	text-decoration: none;
 	padding: 10px;
-	font-size: 3em;
+	font-size: 2em;
 	transition: 0.3s;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
@@ -1449,31 +1442,11 @@ aside {
 	display: inline-block;
 }
 
-.btn-text {
-	color: #fff;
-	text-align: center;
-	font-size: 2.5em;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 500;
-	position: relative;
-	top: 55%;
-	left: -13%;
-}
-
-.mobil {
-	visibility: hidden;
-}
-
 .blue {
 	color: #0d6efd;
 	text-shadow: none;
 	border: 2px #0d6efd solid;
-	position: relative;
-	top: 16.5em;
-	left: 32%;
-	font-size: 1.5em;
-	z-index: 10;
+	font-size: 1.3em;
 }
 
 .blue:hover {
@@ -1481,44 +1454,30 @@ aside {
 	color: #fff;
 }
 
-.btn-text2 {
-	color: rgb(255, 255, 255);
-	text-align: center;
-	font-size: 2.5em;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 500;
-	position: absolute;
-	top: 88.2em;
-	left: 16em;
-}
-
-.doctor-point2 {
-	height: 70%;
-	width: 70%;
-	position: absolute;
-	left: 39%;
-	top: 209.9em;
-}
-
-.mobil2 {
-	visibility: hidden;
-}
-
 .green {
 	color: #d63384;
 	text-shadow: none;
 	border: 2px #d63384 solid;
-	position: absolute;
-	top: 558.2%;
-	left: 58.7%;
-	font-size: 1.5em;
-	z-index: 10;
+	font-size: 1.3em;
 }
 
 .green:hover {
 	color: #fff;
 	background-color: #d63384;
+}
+
+.doctor-info:nth-child(2) {
+	position: absolute;
+	top: 8em;
+	left: 50%;
+	transform: translateX(15%);
+}
+
+.doctor-info2:nth-child(2) {
+	position: absolute;
+	top: 8em;
+	left: -1%;
+	transform: translateX(15%);
 }
 
 /* ---------------------- */

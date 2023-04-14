@@ -20,8 +20,6 @@ html {
 	font-family: 'Work Sans', sans-serif;
 }
 
-/* **** */
-
 body {
 	background: rgb(255, 255, 255);
 	font-family: 'Roboto', sans-serif;
@@ -31,22 +29,19 @@ body {
 	overflow-x: hidden !important;
 }
 
-body::-webkit-scrollbar{
-    width: 8px;
-    /* background: #14213Da0 ; */
-    margin: 20px;
-	
+body::-webkit-scrollbar {
+	width: 8px;
+	background: #14213d6c;
+	margin: 20px;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
 	background: linear-gradient(
 		0deg,
-		rgba(255, 255, 255, 0.623) 0%,
-		rgba(12, 46, 109, 1) 100%
+		rgba(255, 255, 255, 0.856) 20%,
+		rgba(12, 46, 109, 1) 80%
 	);
-    border-radius: 5px;
- 
-
+	border-radius: 5px;
 }
 
 header {
@@ -67,7 +62,7 @@ header.bg-33 {
 		rgba(6, 16, 41, 1) 0%,
 		rgba(12, 46, 109, 1) 100%
 	);
-	border-bottom: 2px solid #444444;
+	border-bottom: 2px solid #ffffff;
 }
 
 /* logo-gov */
@@ -1013,7 +1008,6 @@ p {
 	}
 }
 
-
 /*  */
 
 .modal {
@@ -1026,15 +1020,14 @@ p {
 	visibility: hidden;
 	z-index: 80;
 	margin: 2%;
-   
-  }
-  
-  #btn-modal:checked ~ .modal {
+}
+
+#btn-modal:checked ~ .modal {
 	opacity: 1;
 	visibility: visible;
-  }
-  
-  .contenedor {
+}
+
+.contenedor {
 	width: 600px;
 	height: 600px;
 	background-color: #fff;
@@ -1043,56 +1036,54 @@ p {
 	position: relative;
 	transform: translateY(-30%);
 	overflow: scroll;
-  }
-  
-  #btn-modal:checked ~ .modal .contenedor {
+}
+
+#btn-modal:checked ~ .modal .contenedor {
 	transform: translateY(0%);
-  }
-  
-  .contenedor label {
+}
+
+.contenedor label {
 	position: absolute;
 	top: 25px;
 	right: 10px;
 	color: rgba(6, 16, 41, 1);
 	font-size: 20px;
 	cursor: pointer;
-   
-  }
-  
-  .contenido {
+}
+
+.contenido {
 	width: 100%;
 	padding: 10px;
 	height: 1200px;
-  }
-  
-  .contenido .h3-contenedor {
+}
+
+.contenido .h3-contenedor {
 	font-size: 20px;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 600;
 	text-align: center;
 	position: relative;
 	left: -2%;
 	top: 3em;
-  }
-  
-  .contenido .p-contenedor {
+}
+
+.contenido .p-contenedor {
 	font-size: 16px;
-	font-family: "work sans";
+	font-family: 'work sans';
 	font-style: normal;
 	font-weight: 600;
 	text-align: justify;
 	position: relative;
 	left: -1%;
 	top: 2em;
-	
-  }
-  
-  #btn-modal {
+}
+
+#btn-modal {
 	display: none;
-  }
-  
-  .lbl-modal {
+}
+
+.lbl-modal {
 	text-decoration: underline;
 	padding: 10px 15px;
 	border-radius: 10px;
@@ -1104,15 +1095,13 @@ p {
 	color: rgba(12, 46, 109, 1);
 	text-shadow: rgba(179, 179, 180, 0.781) 0.4em 0.3em 0.6em;
 	z-index: 80;
-  }
-  
-  @media only screen and (min-width: 320px) and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
 	.contenedor {
-	  width: 95%;
+		width: 95%;
 	}
-  }
-  
-  
+}
 
 /* ****** */
 
