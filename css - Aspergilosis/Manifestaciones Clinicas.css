@@ -384,6 +384,8 @@ span {
 }
 
 
+
+
 /* **Galeria* */
 
 .container {
@@ -453,7 +455,7 @@ span {
 .lightbox img {
 	display: block;
 	margin: auto;
-	margin-top: 10rem;
+	margin-top: 3rem;
 	width: 700px;
 	height: 500px;
 	object-fit: cover;
