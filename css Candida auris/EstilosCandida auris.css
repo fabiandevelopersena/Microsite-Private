@@ -134,6 +134,7 @@ header.bg-33 {
 	text-decoration: none;
 	font-weight: bold;
 	position: relative;
+	font-size: unset;
 }
 
 .link-item::after {
