@@ -515,6 +515,11 @@ p {
 	height: auto;
 }
 
+.lbl-modal7 img {
+	width: 80%;
+	height: auto;
+}
+
 .items-text-a {
 	display: flex;
 	flex-wrap: wrap;

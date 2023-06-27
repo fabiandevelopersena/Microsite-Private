@@ -43,7 +43,6 @@ body::-webkit-scrollbar-thumb {
 	);
 	border-radius: 5px;
 }
-
 header {
 	position: relative;
 	position: fixed;
@@ -134,11 +133,11 @@ header.bg-33 {
 
 .link-item {
 	margin-top: 1.7rem;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    position: relative;
-    font-size: unset;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	position: relative;
+	font-size: unset;
 }
 
 .link-item::after {
@@ -233,25 +232,25 @@ header.bg-33 {
 /* ****** */
 
 /* .content {
-  box-sizing: border-box;
-  margin: 0 auto;
-  max-width: 1110px;
-  min-height: 300px;
-  width: 80%;
-  background: #f2f2f2;
-} */
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1110px;
+    min-height: 300px;
+    width: 80%;
+    background: #f2f2f2;
+  } */
 /* 
-.main {
-  background-color: #fff;
-  -webkit-box-shadow: 4px 4px 5px #bac2cc;
-  box-shadow: 5px 4px 28px #bac2cc;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 0px;
-  flex: 1 1 0;
-  margin: 100px 7px 30px 0;
-  padding: 10px;
-  height: 65em;
-} */
+  .main {
+    background-color: #fff;
+    -webkit-box-shadow: 4px 4px 5px #bac2cc;
+    box-shadow: 5px 4px 28px #bac2cc;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0;
+    margin: 100px 7px 30px 0;
+    padding: 10px;
+    height: 65em;
+  } */
 
 .contenedor {
 	margin: auto;
@@ -286,24 +285,29 @@ header.bg-33 {
 	color: #252e39eb;
 	margin: 2%;
 }
+
 .p-contenedor2::first-letter {
-    font-size: 3em;
-    -webkit-initial-letter: 3 1;
-    initial-letter: 3 1;
-    color: rgba(12, 46, 109, 1);
-    font-weight: bold;
-    margin-right: 0.25em;
-    text-shadow: 3px 3px 3px #222;
-    font-family: 'HK Grotesk';
+	font-size: 3em;
+	-webkit-initial-letter: 3 1;
+	initial-letter: 3 1;
+	color: rgba(12, 46, 109, 1);
+	font-weight: bold;
+	margin-right: 0.25em;
+	text-shadow: 3px 3px 3px #222;
+	font-family: 'HK Grotesk';
 }
 
 strong {
-	font-size: 18px;
+	color: rgba(12, 46, 109, 1);
+	font-size: 25px;
 	font-family: 'Poppins';
-	font-style: bold;
-	font-weight: bold;
+	font-style: normal;
+	font-weight: 600;
 	text-align: center;
-	color: rgb(0, 0, 0);
+	text-transform: none;
+	line-height: 28px;
+	margin: 0px;
+	text-shadow: 2px 2px 2px #222222;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -330,7 +334,7 @@ strong {
 }
 
 .sidebar {
-	width: 60%;
+	width: 30%;
 	background: linear-gradient(
 		0deg,
 		rgba(6, 16, 41, 1) 0%,
@@ -346,7 +350,7 @@ strong {
 }
 
 .sidebar_small {
-	width: 10%;
+	width: 5%;
 }
 
 button {
