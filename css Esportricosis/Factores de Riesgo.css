@@ -113,7 +113,7 @@ header.bg-33 {
 	width: 100%;
 	margin-left: -100%;
 	transition: all 0.2s linear;
-	background-color: rgba(0, 0, 0, 0.64);
+	background-color: rgba(255, 255, 255, 0.247);
 	z-index: 100;
 }
 
@@ -122,10 +122,10 @@ header.bg-33 {
 }
 
 .nav-links {
-	background-color: rgb(250, 250, 250);
+	background: rgb(12, 46, 109);
 	display: flex;
 	flex-direction: column;
-	width: 70%;
+	width: 60%;
 	height: 100%;
 	align-items: center;
 	justify-content: flex-start;
@@ -134,16 +134,17 @@ header.bg-33 {
 
 .link-item {
 	margin-top: 1.7rem;
-	color: #444444;
+	color: #ffffff;
 	text-decoration: none;
 	font-weight: bold;
 	position: relative;
+	font-size: unset;
 }
 
 .link-item::after {
 	position: absolute;
 	content: '';
-	background-color: black;
+	background-color: rgb(255, 255, 255);
 	bottom: -5px;
 	left: 0;
 	width: 0%;
@@ -262,13 +263,17 @@ header.bg-33 {
 }
 
 .h3-contenedor2 {
-	font-size: 25px;
+	text-align: center;
+	color: rgba(12, 46, 109, 1);
+	z-index: 40;
+	font-size: 40px;
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 600;
 	text-align: center;
-	color: black;
-	margin: 3%;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #222;
+	margin: 4%;
 }
 
 .p-contenedor2 {
@@ -280,6 +285,17 @@ header.bg-33 {
 	opacity: 93%;
 	color: #252e39eb;
 	margin: 2%;
+}
+
+.p-contenedor2::first-letter {
+	font-size: 3em;
+	-webkit-initial-letter: 3 1;
+	initial-letter: 3 1;
+	color: rgba(12, 46, 109, 1);
+	font-weight: bold;
+	margin-right: 0.25em;
+	text-shadow: 3px 3px 3px #222;
+	font-family: 'HK Grotesk';
 }
 
 strong {
