@@ -263,17 +263,17 @@ header.bg-33 {
 }
 
 .h3-contenedor2 {
-	text-align: center;
 	color: rgba(12, 46, 109, 1);
-	z-index: 40;
 	font-size: 40px;
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 600;
 	text-align: center;
-	text-transform: uppercase;
-	text-shadow: 2px 2px 2px #222;
-	margin: 4%;
+	text-transform: none;
+	line-height: 28px;
+	margin: 80px;
+	/* text-shadow: 2px 2px 2px #222; */
+	z-index: 70;
 }
 
 .p-contenedor2 {
@@ -292,15 +292,15 @@ header.bg-33 {
 	-webkit-initial-letter: 3 1;
 	initial-letter: 3 1;
 	color: rgba(12, 46, 109, 1);
-	font-weight: bold;
+	font-weight: 500;
 	margin-right: 0.25em;
-	text-shadow: 3px 3px 3px #222;
-	font-family: 'HK Grotesk';
+	/* text-shadow: 3px 3px 3px #222;
+	font-family: 'HK Grotesk'; */
 }
 
 strong {
 	color: rgba(12, 46, 109, 1);
-	font-size: 25px;
+	font-size: 30px;
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 600;
@@ -308,7 +308,8 @@ strong {
 	text-transform: none;
 	line-height: 28px;
 	margin: 0px;
-	text-shadow: 2px 2px 2px #222222;
+	/* text-shadow: 2px 2px 2px #222222; */
+	z-index: 70;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {

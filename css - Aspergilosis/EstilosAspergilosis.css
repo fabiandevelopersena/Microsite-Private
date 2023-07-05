@@ -271,17 +271,16 @@ header.bg-33 {
 }
 h3 {
 	color: rgba(12, 46, 109, 1);
-	z-index: 70;
 	font-size: 40px;
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 600;
-	text-align: justify;
 	text-align: center;
 	text-transform: none;
 	line-height: 28px;
-	margin: 60px;
-	text-shadow: 2px 2px 2px #222;
+	margin: 80px;
+	/* text-shadow: 2px 2px 2px #222; */
+	z-index: 70;
 }
 
 p {
@@ -299,26 +298,27 @@ p {
 }
 .p-contenedor::first-letter {
 	font-size: 3em;
-	-webkit-initial-letter: 3 1;
-	initial-letter: 3 1;
-	color: rgba(12, 46, 109, 1);
-	font-weight: bold;
-	margin-right: 0.25em;
-	text-shadow: 3px 3px 3px #222;
-	font-family: 'HK Grotesk';
+    -webkit-initial-letter: 3 1;
+    initial-letter: 3 1;
+    color: rgba(12, 46, 109, 1);
+    font-weight: 500;
+    margin-right: 0.25em;
+	/* text-shadow: 3px 3px 3px #222;
+	font-family: 'HK Grotesk'; */
 }
 
 strong {
-	color: rgba(12, 46, 109, 1);
-	font-size: 25px;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 600;
-	text-align: center;
-	text-transform: none;
-	line-height: 28px;
-	margin: 0px;
-	text-shadow: 2px 2px 2px #222222;
+    color: rgba(12, 46, 109, 1);
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    text-transform: none;
+    line-height: 28px;
+    margin: 0px;
+    /* text-shadow: 2px 2px 2px #222222; */
+    z-index: 70;
 }
 
 #container-web {
