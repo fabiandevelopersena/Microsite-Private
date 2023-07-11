@@ -25,6 +25,16 @@ navWrapper.addEventListener('click', (e) => {
 	}
 });
 
+/* Cambio de color scroll */
+window.addEventListener('scroll', function () {
+	var header = document.querySelector('header');
+	if (window.scrollY > 0) {
+		header.classList.add('scrolled');
+	} else {
+		header.classList.remove('scrolled');
+	}
+});
+
 /* Sidebar */
 
 const sidebar = document.querySelector('.sidebar');
