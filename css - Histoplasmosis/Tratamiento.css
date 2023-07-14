@@ -21,7 +21,7 @@ html {
 }
 
 body {
-	background: rgb(255, 255, 255);
+	background: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
@@ -39,13 +39,17 @@ body::-webkit-scrollbar-thumb {
 	background: linear-gradient(
 		0deg,
 		rgba(255, 255, 255, 0.856) 20%,
-		rgba(12, 46, 109, 1) 80%
+		rgb(12, 46, 109) 80%
 	);
 	border-radius: 5px;
 }
 
+::selection {
+	background-color: #d63384;
+	color: #fff;
+}
+
 header {
-	position: relative;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -54,55 +58,72 @@ header {
 	padding-top: 1.2rem;
 	padding-bottom: 1.2rem;
 	z-index: 999;
-}
-
-header.bg-33 {
 	background: linear-gradient(
 		0deg,
 		rgba(6, 16, 41, 1) 0%,
 		rgba(12, 46, 109, 1) 100%
 	);
-	border-bottom: 2px solid #ffffff;
+	transition: background 0.3s;
+	border-bottom: 1px solid #ffffff;
+}
+.scrolled {
+	background: rgba(12, 46, 109, 1);
+	border-bottom: 1px solid #ffffff;
 }
 
 /* logo-gov */
 
-.img-gov {
-	width: 13em;
+.img-colombiapotencia {
+	width: 7em;
 	object-fit: cover;
 	position: fixed;
-	top: 0;
+	top: 2%;
 	left: 2%;
-	padding-top: 1.2rem;
-	padding-bottom: 1.2rem;
 }
 
-.icon-enfermedades {
-	width: 4em;
+.img-gov {
+	width: 5em;
 	object-fit: cover;
 	position: fixed;
-	top: -3%;
-	left: 80%;
-	padding-top: 1.2rem;
-	padding-bottom: 1.2rem;
+	top: 1%;
+	left: 90%;
 }
 
+.img-micologia {
+	width: 3.4em;
+	object-fit: cover;
+	position: fixed;
+	top: 0.7%;
+	left: 82%;
+}
+
+.divider {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 30px;
+	left: 86.7%;
+}
+
+.divider-text {
+	margin: 0 10px;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+/* Estilos del menú */
 /* Menu Hamburguesa */
 
 .main-header {
-	height: 50px;
+	/* height: 50px; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 0.4rem;
-	margin-top: 3%;
+	/* margin-top: 3%; */
 	position: relative;
-}
-
-.main-logo {
-	color: black;
-	font-size: 32px;
-	text-decoration: none;
 }
 
 .main-nav {
@@ -122,30 +143,32 @@ header.bg-33 {
 }
 
 .nav-links {
-	background: rgb(12, 46, 109);
-	display: flex;
-	flex-direction: column;
-	width: 60%;
+	width: 100%;
 	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	align-items: center;
-	justify-content: flex-start;
-	border-radius: 0px 0px 0px 0px;
+	justify-content: center;
+	background: transparent;
 }
 
 .link-item {
-	margin-top: 1.7rem;
-	color: #ffffff;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	font-weight: bold;
 	position: relative;
 	font-size: unset;
+	display: inline-block;
+	margin-top: 0;
+	margin-right: 4rem;
 }
 
 .link-item::after {
 	position: absolute;
 	content: '';
 	background-color: rgb(255, 255, 255);
-	bottom: -5px;
+	bottom: -2px;
 	left: 0;
 	width: 0%;
 	height: 3px;
@@ -168,9 +191,8 @@ header.bg-33 {
 	justify-content: center;
 	cursor: pointer;
 	position: relative;
-	top: -100%;
-	left: -5%;
-	box-shadow: none;
+	top: -140%;
+	left: 40%;
 }
 
 .button-menu span {
@@ -178,7 +200,7 @@ header.bg-33 {
 	height: 4px;
 	margin-bottom: 5px;
 	position: relative;
-	background: #ffffff;
+	background: #fff;
 	border-radius: 3px;
 	transform-origin: 4px 0px;
 	transition: all 0.2s linear;
@@ -198,60 +220,139 @@ header.bg-33 {
 	display: none;
 }
 
-@media screen and (min-width: 2650px) {
-	.button-menu {
-		display: none;
-	}
+.button-menu {
+	display: none;
+}
 
-	.main-logo {
-		flex-basis: 30%;
-	}
+.main-logo {
+	flex-basis: 30%;
+}
 
-	.main-nav {
-		position: static;
-		margin-left: 0;
-		flex-basis: 70%;
-		height: 100%;
-	}
+.main-nav {
+	position: static;
+	margin-left: 0%;
+	flex-basis: 70%;
+	height: 100%;
+	background-color: transparent;
+}
 
-	.nav-links {
-		width: 100%;
-		flex-direction: row;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: flex-end;
-		background: white;
-	}
+/* Estilos del submenú */
+.submenu ul {
+	display: none;
+	position: absolute;
+	background-color: rgba(12, 46, 109, 1);
+	text-align: justify;
+}
 
-	.link-item {
-		display: inline-block;
-		margin-top: 0;
-		margin-right: 2rem;
-	}
+.submenu:hover ul {
+	width: 190px;
+	height: 430px;
+	display: block;
+	position: absolute;
+	background-color: rgba(12, 46, 109, 1);
+	top: 15px;
+	left: 33%;
+	transition: 0.3s ease all;
+}
+
+li {
+	list-style-type: none;
+}
+
+.submenu ul li {
+	display: block;
+}
+
+.submenu ul li a {
+	padding: 10px;
 }
 
 /* ****** */
 
-/* .content {
-  box-sizing: border-box;
-  margin: 0 auto;
-  max-width: 1110px;
-  min-height: 300px;
-  width: 80%;
-  background: #f2f2f2;
-} */
-/* 
-.main {
-  background-color: #fff;
-  -webkit-box-shadow: 4px 4px 5px #bac2cc;
-  box-shadow: 5px 4px 28px #bac2cc;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 0px;
-  flex: 1 1 0;
-  margin: 100px 7px 30px 0;
-  padding: 10px;
-  height: 65em;
-} */
+@media screen and (min-width: 1900px) and (max-height: 3840px) {
+	/* logo-gov */
+
+	.img-colombiapotencia {
+		width: 10em;
+		object-fit: cover;
+		position: fixed;
+		top: -1px;
+		left: 2%;
+		padding-top: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+
+	.img-gov {
+		width: 6.5em;
+		object-fit: cover;
+		position: fixed;
+		top: -5px;
+		left: 92%;
+		padding-top: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+
+	.img-micologia {
+		width: 4.5em;
+		object-fit: cover;
+		position: fixed;
+		top: -9px;
+		left: 85%;
+		padding-top: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+
+	.divider {
+		display: flex;
+		align-items: center;
+		position: fixed;
+		top: 40px;
+		left: 89.5%;
+	}
+
+	.divider-text {
+		margin: 0 10px;
+		width: 10px;
+		height: 10px;
+		background-color: #ffff;
+		border-radius: 50%;
+	}
+
+	.submenu ul {
+		display: none;
+		position: absolute;
+		background-color: rgba(12, 46, 109, 1);
+		padding-left: 30px;
+		padding: 10px;
+	}
+	.submenu:hover ul {
+		display: block;
+		position: absolute;
+		background-color: rgba(12, 46, 109, 1);
+		left: 50%;
+		top: 27px;
+		transition: 0.3s ease all;
+	}
+
+	.link-item {
+		color: rgb(255, 255, 255);
+		text-decoration: none;
+		font-weight: bold;
+		position: relative;
+		font-size: unset;
+	}
+
+	.link-item::after {
+		position: absolute;
+		content: '';
+		background-color: rgb(255, 255, 255);
+		bottom: -2px;
+		left: 0;
+		width: 0%;
+		height: 3px;
+		transition: 0.3s ease all;
+	}
+}
 
 .contenedor {
 	margin: auto;
@@ -286,7 +387,6 @@ header.bg-33 {
 	color: #252e39eb;
 	margin: 2%;
 }
-
 .p-contenedor2::first-letter {
 	font-size: 3em;
 	-webkit-initial-letter: 3 1;
@@ -295,12 +395,12 @@ header.bg-33 {
 	font-weight: 500;
 	margin-right: 0.25em;
 	/* text-shadow: 3px 3px 3px #222;
-	font-family: 'HK Grotesk'; */
+    font-family: 'HK Grotesk'; */
 }
 
 strong {
 	color: rgba(12, 46, 109, 1);
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 600;
@@ -336,7 +436,7 @@ strong {
 }
 
 .sidebar {
-	width: 120%;
+	width: 100%;
 	background: linear-gradient(
 		0deg,
 		rgba(6, 16, 41, 1) 0%,
@@ -376,7 +476,7 @@ button {
 	border-radius: 50%;
 }
 
-a {
+.sidebar-lateral {
 	display: flex;
 	flex-direction: column;
 	align-items: initial;
@@ -395,5 +495,159 @@ a {
 }
 
 span {
-	margin-left: 5%;
+	margin-left: 20%;
+	margin-top: -30px;
+}
+
+/* **Galeria* */
+
+.container {
+	position: relative;
+	display: table;
+	max-width: 90%;
+	margin: 50px auto;
+}
+
+.text-center {
+	text-align: center;
+	margin-bottom: 2em;
+	color: rgba(12, 46, 109, 1);
+	z-index: 40;
+	font-size: 40px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #222;
+}
+
+.lightbox-gallery,
+.esquinas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.lightbox-gallery div,
+.esquinas img {
+	margin: 30px;
+	flex-basis: 180px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+	.lightbox-gallery,
+	.esquinas {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.lightbox-gallery div,
+	.esquinas img {
+		margin-bottom: 10px;
+	}
+}
+
+/* Lightbox CSS */
+
+.lightbox {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+
+.lightbox img {
+	display: block;
+	margin: auto;
+	margin-top: 3rem;
+	width: 700px;
+	height: 500px;
+	object-fit: cover;
+}
+
+.lightbox .caption {
+	margin: 15px auto;
+	width: 50%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #eee;
+}
+
+.github-link {
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.github-link:hover,
+.github-link:active,
+.github-link:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.esquinas {
+	position: relative;
+	display: table;
+	max-width: 90%;
+	margin: 50px auto;
+}
+
+.esquinas img {
+	display: block;
+	margin: 0 auto;
+	padding: 8px;
+	background: #fff;
+	box-shadow: 0 0 2px #666;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 3px #02020265);
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border: 1px solid rgba(12, 46, 109, 0.5);
+}
+
+.esquinas:before,
+.esquinas:after,
+.esquinasbis:before,
+.esquinasbis:after {
+	position: absolute;
+	bottom: -20px;
+	right: -40px;
+	content: '';
+	height: 40px;
+	width: 80px;
+	z-index: 20;
+	background: #fff;
+	box-shadow: 0 -6px 9px -8px #333;
+	transform: rotate(-45deg);
+}
+
+.esquinas:after,
+.esquinasbis:after {
+	top: -20px;
+	left: -40px;
+	box-shadow: 0 6px 9px -8px #333;
+}
+
+.esquinasbis:before {
+	top: auto;
+	left: -40px;
+	transform: rotate(45deg);
+}
+
+.esquinasbis:after {
+	left: auto;
+	right: -40px;
+	transform: rotate(45deg);
 }
