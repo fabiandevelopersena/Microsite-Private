@@ -392,7 +392,7 @@ li {
 
 .text-section {
 	background-color: #ffffff;
-	height: 120rem;
+	height: 115rem;
 	position: relative;
 	top: 1em;
 }
@@ -729,7 +729,7 @@ strong {
 	text-align: center;
 	text-transform: none;
 	line-height: 28px;
-	text-shadow: 2px 2px 2px #ffffd881;
+	/* text-shadow: 2px 2px 2px #ffffd881; */
 }
 
 #container-web2 {
@@ -741,6 +741,11 @@ strong {
 	margin-top: 7%;
 }
 .pdf3 {
+	position: relative;
+	left: 40px;
+}
+
+.pdf4 {
 	position: relative;
 	left: 25px;
 }
