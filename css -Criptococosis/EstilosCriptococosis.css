@@ -601,98 +601,102 @@ strong {
 /* ****** */
 
 .imagenes {
-	height: auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .imagenes div {
-	width: 100%;
-	max-width: 400px;
-	margin: 22px;
+    width: 100%;
+    max-width: 400px;
+    margin: 22px;
 }
 
 .imagenes img {
-	width: 60%;
-	height: auto;
-	margin: 20px;
-	object-fit: cover;
-	filter: drop-shadow(0px 8px 3px #02020265);
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    object-fit: cover;
+    filter: drop-shadow(0px 8px 3px #02020265);
 }
 
 .lbl-modal1 img {
-	width: 60%;
-	height: auto;
-	margin-top: -90px;
-	margin-left: 60px;
-	filter: drop-shadow(0px 8px 3px #0202024f);
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    filter: drop-shadow(0px 8px 3px #0202024f);
 }
 
 .lbl-modal2 img {
-	width: 90%;
-	height: auto;
-	filter: drop-shadow(0px 8px 3px #0202024f);
+    width: 80%;
+    height: auto;
+    margin-left: 12%;
+    filter: drop-shadow(0px 8px 3px #0202024f);
 }
 
 .lbl-modal3 img {
-	width: 90%;
-	height: auto;
+    width: 90%;
+    height: auto;
+    margin-left: 10%;
+    filter: drop-shadow(0px 8px 3px #0202024f);
 }
 
 .lbl-modal4 img {
-	width: 90%;
-	height: auto;
-	margin-top: 123px;
+    width: 50%;
+    height: auto;
+    margin-left: 20%;
+    filter: drop-shadow(0px 8px 3px #0202024f);
 }
 .lbl-modal5 img {
-	width: 50%;
-	height: auto;
-	margin-left: 100px;
+    width: 60%;
+    height: auto;
+    margin-left: 100px;
 }
 
 .lbl-modal6 img {
-	width: 60%;
-	height: auto;
+    width: 50%;
+    height: auto;
+    margin-left: 30%;
 }
 
 .lbl-modal7 img {
-	width: 80%;
-	height: auto;
+    width: 80%;
+    height: auto;
 }
 
 .items-text-a {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	font-size: 18px;
-	color: rgba(12, 46, 109, 1);
-	cursor: pointer;
-	font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    color: rgba(12, 46, 109, 1);
+    cursor: pointer;
+    font-weight: 600;
 }
 
 @media (min-width: 768px) {
-	.imagenes div {
-		width: 45%;
-		max-width: none;
-	}
+    .imagenes div {
+        width: 45%;
+        max-width: none;
+    }
 }
 
 @media (min-width: 1024px) {
-	.imagenes div {
-		width: 30%;
-	}
+    .imagenes div {
+        width: 30%;
+    }
 }
 
 @media (min-width: 2560px) {
-	.imagenes div {
-		width: 20%;
-	}
+    .imagenes div {
+        width: 20%;
+    }
 }
 
-/* ****** */
+/* *** */
 
 .Recuerda {
 	height: 80rem;
@@ -742,7 +746,7 @@ strong {
 }
 .pdf3 {
 	position: relative;
-	left: 25px;
+	left: 50px;
 }
 .content-candi2 {
 	width: 8%;

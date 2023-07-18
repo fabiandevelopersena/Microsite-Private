@@ -393,9 +393,8 @@ li {
 
 .text-section {
 	background-color: #ffffff;
-	height: 118rem;
+	height: 108rem;
 	position: relative;
-	top: 1em;
 }
 h3 {
 	color: rgba(12, 46, 109, 1);
@@ -581,7 +580,7 @@ strong {
 	border-radius: 10px;
 	cursor: pointer;
 	position: relative;
-	top: -7em;
+
 	margin-left: 48px;
 	color: rgba(12, 46, 109, 1);
 	text-shadow: none;
@@ -623,38 +622,42 @@ strong {
 }
 
 .lbl-modal1 img {
-	width: 60%;
+	width: 80%;
 	height: auto;
-	margin-top: -90px;
-	margin-left: 60px;
+	margin-left: 10%;
 	filter: drop-shadow(0px 8px 3px #0202024f);
 }
 
 .lbl-modal2 img {
-	width: 90%;
+	width: 80%;
 	height: auto;
+	margin-left: 12%;
 	filter: drop-shadow(0px 8px 3px #0202024f);
 }
 
 .lbl-modal3 img {
 	width: 90%;
 	height: auto;
+	margin-left: 10%;
+	filter: drop-shadow(0px 8px 3px #0202024f);
 }
 
 .lbl-modal4 img {
-	width: 90%;
+	width: 50%;
 	height: auto;
-	margin-top: 123px;
+	margin-left: 20%;
+	filter: drop-shadow(0px 8px 3px #0202024f);
 }
 .lbl-modal5 img {
-	width: 50%;
+	width: 60%;
 	height: auto;
 	margin-left: 100px;
 }
 
 .lbl-modal6 img {
-	width: 60%;
+	width: 50%;
 	height: auto;
+	margin-left: 30%;
 }
 
 .lbl-modal7 img {
@@ -691,8 +694,6 @@ strong {
 		width: 20%;
 	}
 }
-
-/* ****** */
 
 .Recuerda {
 	height: 80rem;
@@ -742,7 +743,7 @@ strong {
 }
 .pdf3 {
 	position: relative;
-	left: 25px;
+	left: 40px;
 }
 .content-candi2 {
 	width: 8%;
