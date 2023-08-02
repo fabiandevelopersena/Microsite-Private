@@ -1,0 +1,450 @@
+:root {
+	--morado-capacita: #8c2b87;
+	--investiga-amarillo: #ef7d17;
+	--observa-azul: #135b89;
+	--Black: #000;
+	--White: #fff;
+	--magenta: #d63384;
+	--azul-web: #0d6efd;
+	--color-text: #135b89;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #ffffff;
+	font-family: 'Poppins', 'Work Sans', 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+}
+
+body::-webkit-scrollbar {
+	width: 8px;
+	background: #14213d6c;
+	margin: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 0.856) 20%,
+		rgb(12, 46, 109) 80%
+	);
+	border-radius: 5px;
+}
+
+::selection {
+	background-color: #d63384;
+	color: #fff;
+}
+
+/* <!-- Slider Enfermedades  --> */
+
+.slider-a {
+	color: rgba(12, 46, 109, 1);
+	text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+}
+
+#tut .slider-a {
+	text-decoration: none;
+	color: rgba(12, 46, 109, 1);
+	text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+	background-color: #000;
+	min-height: 500px;
+	overflow: hidden;
+}
+
+.fungicas {
+	color: rgb(12, 46, 109);
+	text-shadow: 2px 2px rgb(255 255 255);
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: bold;
+	align-items: center;
+	z-index: 120;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+}
+
+.fungicas::after {
+	content: '';
+	display: block;
+	width: 30%;
+	height: 2px;
+	background-color: rgb(214, 51, 132);
+	position: absolute;
+	bottom: 5px;
+	left: 40%;
+	border-radius: 2px;
+}
+
+.fungicas2 {
+	position: absolute;
+	top: -700px;
+	left: 43%;
+	border: none;
+	color: #fff;
+	text-shadow: none;
+	background: rgb(214, 51, 132);
+	border-radius: 15px;
+	background-size: 100% auto;
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 17px;
+	padding: 0.6em 1.5em;
+	cursor: pointer;
+	z-index: 90;
+}
+
+.fungicas2:hover {
+	background-position: right center;
+	background-size: 200% auto;
+	-webkit-animation: pulse 2s infinite;
+	animation: pulse514 1.5s infinite;
+}
+
+@keyframes pulse514 {
+	0% {
+		box-shadow: 0 0 0 0 rgb(214, 51, 132, 0.4);
+	}
+
+	70% {
+		box-shadow: 0 0 0 10px rgba(214, 51, 132, 0%);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgba(214, 51, 132, 0%);
+	}
+}
+
+.fungicas3 {
+	position: absolute;
+	top: -700px;
+	left: 40%;
+	z-index: 90;
+	border: none;
+	color: #fff;
+	text-shadow: none;
+	background: rgb(214, 51, 132);
+	border-radius: 15px;
+	background-size: 100% auto;
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 17px;
+	padding: 0.6em 1.5em;
+	cursor: pointer;
+}
+
+.fungicas3:hover {
+	background-position: right center;
+	background-size: 200% auto;
+	-webkit-animation: pulse 2s infinite;
+	animation: pulse514 1.5s infinite;
+}
+
+@keyframes pulse514 {
+	0% {
+		box-shadow: 0 0 0 0 rgb(214, 51, 132, 0.4);
+	}
+
+	70% {
+		box-shadow: 0 0 0 10px rgba(214, 51, 132, 0%);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgba(214, 51, 132, 0%);
+	}
+}
+
+.fungicas5 {
+	position: absolute;
+	top: -147rem;
+	left: 44%;
+	z-index: 90;
+	border: none;
+	color: #fff;
+	text-shadow: none;
+	background: rgb(214, 51, 132);
+	border-radius: 15px;
+	background-size: 100% auto;
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 17px;
+	padding: 0.6em 1.5em;
+	cursor: pointer;
+}
+
+.fungicas5:hover {
+	background-position: right center;
+	background-size: 200% auto;
+	-webkit-animation: pulse 2s infinite;
+	animation: pulse516 1.5s infinite;
+}
+
+@keyframes pulse516 {
+	0% {
+		box-shadow: 0 0 0 0 rgb(214, 51, 132, 0.4);
+	}
+
+	70% {
+		box-shadow: 0 0 0 10px rgba(214, 51, 132, 0%);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgba(214, 51, 132, 0%);
+	}
+}
+
+#third:checked ~ #labels label,
+#sixth:checked ~ #labels label {
+	color: rgba(12, 46, 109, 1);
+	text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+}
+
+.one /* h1,
+.one h2 */,
+#first:checked ~ #labels label.first {
+	color: rgb(12 46 109 / 80%);
+	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
+}
+
+.two /* h1,
+.two h2 */,
+#second:checked ~ #labels label.second {
+	color: rgb(12 46 109 / 80%);
+	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
+}
+
+.three /* h1,
+.three h2 */,
+#third:checked ~ #labels label.third {
+	color: rgb(12 46 109 / 80%);
+	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
+}
+
+.four /* h1,
+.four h2 */,
+#fourth:checked ~ #labels label.fourth {
+	color: rgb(12 46 109 / 80%);
+	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
+}
+
+.five /* h1,
+.five h2 */,
+#fifth:checked ~ #labels label.fifth {
+	color: rgb(12 46 109 / 80%);
+	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
+}
+
+.six /* h1,
+.six h2 */,
+#sixth:checked ~ #labels label.sixth {
+	color: rgb(12 46 109 / 80%);
+	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
+}
+
+.seven /* h1,
+.seven h2 */,
+#seventh:checked ~ #labels label.seventh {
+	color: rgb(12 46 109 / 80%);
+	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
+}
+
+.eight /* h1,
+.eight h2 */,
+#eighth:checked ~ #labels label.eighth {
+	color: rgb(12 46 109 / 80%);
+	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
+}
+
+.nine /* h1,
+.nine h2 */,
+#nineth:checked ~ #labels label.nineth {
+	color: rgb(12 46 109 / 80%);
+	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
+}
+
+input[type='radio'] {
+	display: none;
+}
+
+label {
+	display: inline-block;
+	margin-right: 40px;
+	cursor: pointer;
+	color: rgb(12, 46, 109);
+	font-weight: bold;
+	text-shadow: 2px 2px rgb(255 255 255);
+	font-size: 22px;
+	font-family: Arial;
+}
+
+#labels {
+	position: absolute;
+	bottom: 7%;
+	left: 3%;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+}
+
+.slide {
+	width: 100%;
+	position: absolute;
+	opacity: 0;
+	transition: all 0.3s ease-in;
+	height: 100%;
+}
+
+.slide div {
+	margin: 0;
+	padding: 30px;
+	width: 100%;
+	color: rgba(12, 46, 109, 1);
+	text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+	position: relative;
+	transition: background-color 0.3s linear;
+	height: 100%;
+}
+
+.one div {
+}
+
+.one-img {
+	width: 2900px;
+	height: 850px;
+	position: relative;
+	left: -50px;
+	top: -85px;
+	background-color: #d5eada;
+}
+
+.two div {
+}
+
+.two-img {
+	width: 2900px;
+	height: 850px;
+	position: relative;
+	left: -50px;
+	top: -85px;
+	background-color: #e2cfe2;
+}
+
+.three div {
+}
+
+.three-img {
+	width: 2900px;
+	height: 850px;
+	position: relative;
+	left: -50px;
+	top: -85px;
+	background-color: #cfdab5;
+}
+
+.four div {
+}
+
+.four-img {
+	width: 2900px;
+	height: 850px;
+	position: relative;
+	left: -50px;
+	top: -85px;
+	background-color: #bad5f7;
+}
+
+.five div {
+}
+
+.five-img {
+	width: 2900px;
+	height: 850px;
+	position: relative;
+	left: -50px;
+	top: -85px;
+	background-color: #c9cbc2;
+}
+
+.six div {
+}
+
+.six-img {
+	width: 2400px;
+	height: 2500px;
+	position: relative;
+	left: -50px;
+	top: -1100px;
+	background-color: #f0e3ed;
+}
+
+.seven div {
+}
+
+.seven-img {
+	width: 2900px;
+	height: 850px;
+	position: relative;
+	left: -50px;
+	top: -86px;
+	background-color: #f1e7ff;
+}
+
+.eight div {
+}
+
+.eight-img {
+	width: 2900px;
+	height: 850px;
+	position: relative;
+	left: -50px;
+	top: -86px;
+	background-color: #9fdab5;
+}
+
+.nine div {
+}
+
+.nine-img {
+	width: 2900px;
+	height: 850px;
+	position: relative;
+	left: -50px;
+	top: -86px;
+	background-color: #ffffd8;
+}
+
+#first:checked ~ div.one,
+#fourth:checked ~ div.four,
+#second:checked ~ div.two,
+#third:checked ~ div.three,
+#fifth:checked ~ div.five,
+#sixth:checked ~ div.six,
+#seventh:checked ~ div.seven,
+#eighth:checked ~ div.eight,
+#nineth:checked ~ div.nine {
+	opacity: 1;
+}
+
+/* ******* */
