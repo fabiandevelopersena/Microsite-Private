@@ -28,85 +28,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
+
+  <script src="http://186.154.202.145:20002/home/Paginas/Js/funciones_header.js"></script>
+
+  <script src="http://186.154.202.145:20002/home/Paginas/Js/Sidebar_zoom.js"></script>
 </head>
 
 <body>
-  <header>
-    <div class="main-header">
-      <a target="_blank" href="https://www.ins.gov.co/Paginas/inicio.aspx">
-        <img class="img-colombiapotencia"
-          src=" https://cdn.glitch.global/c3a58625-9404-4869-94be-2b212af293a6/BLANCO.svg?v=1688580597149" alt="" /></a>
 
-      <div class="divider">
-        <a target="_blank" href="https://www.ins.gov.co/Paginas/inicio.aspx"><img class="img-gov"
-            src="https://cdn.glitch.global/c3a58625-9404-4869-94be-2b212af293a6/logo%20ins%20blanco.svg?v=1688580963802"
-            alt="" /></a>
-        <span class="divider-text"></span>
-        <a href="http://186.154.202.145:20002/home/Paginas/Home.html"><img class="img-micologia"
-            src="https://cdn.glitch.global/c3a58625-9404-4869-94be-2b212af293a6/e087486f-9d57-40fe-8490-1dae1f6f654d.logo%20blanco%2070x70%20mobile.png?v=1688578899515"
-            alt="" /></a>
-      </div>
-    </div>
-
-    <nav id="nav" class="main-nav">
-      <div class="nav-links">
-        <a class="link-item" href="http://186.154.202.145:20002/home/Paginas/Home.html">Home</a>
-
-        <li class="submenu">
-          <a class="link-item" href="#">Enfermedades Fungicas &#9660;</a>
-          <ul>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Histoplasmosis/Paginas/Histoplasmosis.html">Histoplasmosis</a>
-            </li>
-            <li>
-              <a class="link-item" href="http://186.154.202.145:20002/home/Paracoccidioidomicosis/Paginas/Paracocciocidimicosis.html
-                                                          ">Paracoccidioidomicosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Candida%20auris/Paginas/Candida-auris.html">Candida auris</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Candidiasis/Paginas/Candidiasis.html">Candidiasis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Aspergilosis/Paginas/Aspergilosis.html">Aspergilosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Mucormicosis/Paginas/Murcomicosis.html">Mucormicosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Criptococosis/Paginas/Criptococosis.html">Criptococosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Cromoblastomicosis/Paginas/Chromoblastomicosis.html">Cromoblastomicosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Esporotricosis/Paginas/Esportricosis.html">Esporotricosis</a>
-            </li>
-
-          </ul>
-        </li>
-
-        <a class="link-item" href="http://186.154.202.145:20002/home/Webinar/Paginas/Webinar.html">Webinar</a>
-
-        <a target="_blank" class="link-item" href="https://aulavirtual.ins.gov.co/Formularios/Inicio/Inicio.aspx">Aula
-          Virtual</a>
-      </div>
-    </nav>
-    <button id="button-menu" class="button-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </header>
+  <div id="header-placeholder"></div>
+  <br>
 
   <div class="grid-container">
     <div class="sidebar">
@@ -150,7 +81,7 @@
         onclick="Ocultar('ejemplo3'); return false;">Prevención</a>
       <a class="sidebar-lateral"
         href="http://186.154.202.145:20002/home/Aspergilosis/Paginas/Secciones%20-%20%20Aspergilosis/Diagnostico.html"
-        onclick="Ocultar('ejemplo3'); return false;">Diagnostico</a>
+        onclick="Ocultar('ejemplo3'); return false;">Diagnostico por Laboratorio</a>
 
 
       <a class="sidebar-lateral"
@@ -222,7 +153,9 @@
         oxigenados puede producir sus estructuras de esporulación, en estos casos al examen directo se observarían,
         además de las hifas septadas hialinas dicotómicas en ángulo agudo, cabezuelas con fiálides y conidias.
         <br /><br>
-        <strong>Examen histopatológico/citológico.</strong> Las biopsias de tejidos permiten observar las estructuras
+        <strong>Examen histopatológico/citológico.</strong>
+        <br /><br>
+        Las biopsias de tejidos permiten observar las estructuras
         del hongo penetrando el tejido, lo que confirmaría la enfermedad (aspergilosis confirmada). En cortes de tejidos
         teñidos con hematoxilina eosina, plata metenamina Grocott-Gomori (GMS) o tinción con ácido peryódico Schiff
         (PAS) se observan hifas septadas ramificadas en ángulo agudo y, ocasionalmente, cabezuelas.
@@ -231,7 +164,8 @@
         <br /><br />
         <i> Aspergillus</i> crece bien en medios como agar Sabouraud, agar extracto de malta y en agar czapek levadura
         (CYA, Vzapek Yeast Agar, por sus <i> siglas en inglés)</i> incubados a 25 y 37 °C por 2 a 5 días. En agar
-        micosel las secciones de <i>Aspergillus</i> suelen ser inhibidas por la cicloheximida, pero Aspergillus sección
+        micosel las secciones de <i>Aspergillus</i> suelen ser inhibidas por la cicloheximida, pero <i>Aspergillus</i>
+        sección
         <i>Terrei</i> y sección <i>Nidulantes</i> pueden crecer un poco más lento de lo esperado. La apariencia
         macroscópica de las colonias va a variar de acuerdo con la sección, incluso a la especie, pudiendo ser
         algodonosa, aterciopelada o pulverulenta de colores muy diversos como blanco, amarillo, café, verde, azuloso,
@@ -380,11 +314,6 @@
             data-image-hd="/http://186.154.202.145:20002/home/Aspergilosis/PublishingImages/Aspergillus%20sp.PUBLIC_HEALTH_IMAGE_LIBRARY_CDC..tif"
             alt="AsperAspergillus sp. Fuente: Public Health Image Library CDC" />
         </div>
-        <!-- <div class="esquinas">
-            <img src="/http://186.154.202.145:20002/home/Aspergilosis/PublishingImages/Aspergillus%20tamarii%20(19339).tif"
-              data-image-hd="http://186.154.202.145:20002/home/Aspergilosis/PublishingImages/Aspergillus%20tamarii%20(19339).tif"
-              alt="Aspergillus tamarii (19339) Fuente: Public Health Image Library CDC" />
-          </div> -->
         <div class="esquinas">
           <img
             src="http://186.154.202.145:20002/home/Aspergilosis/PublishingImages/Aspergillus-alliaceus-PUBLIC_HEALTH_IMAGE_LIBRARY_CDC-_1_.jpg"
@@ -407,45 +336,6 @@
   </div>
   </div>
   </div>
-
-
-  <!-- JS - Galeria -->
-  <script>
-    (function () {
-      var lightbox = document.createElement('div');
-      lightbox.className = 'lightbox';
-
-      var img = document.createElement('img');
-      var caption = document.createElement('p');
-      caption.className = 'caption';
-
-      lightbox.appendChild(img);
-      lightbox.appendChild(caption);
-
-      document.body.appendChild(lightbox);
-
-      var galleryImages = document.querySelectorAll('.lightbox-gallery img');
-      galleryImages.forEach(function (image) {
-        image.addEventListener('click', function (e) {
-          e.preventDefault();
-
-          var src = this.getAttribute('data-image-hd');
-          var cap = this.getAttribute('alt');
-
-          img.src = src;
-          caption.textContent = cap;
-
-          lightbox.style.display = 'block';
-        });
-      });
-
-      lightbox.addEventListener('click', function () {
-        lightbox.style.display = 'none';
-      });
-    })();
-  </script>
-  <!-- JS -->
-  <script src="http://186.154.202.145:20002/home/Paginas/Js/funciones.js" defer></script>
 
 </body>
 

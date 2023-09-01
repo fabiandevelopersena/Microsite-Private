@@ -81,7 +81,7 @@ body::-webkit-scrollbar-thumb {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url('/assets/hongo\ lineas\ \ cultivo.svg');
+	background-image: url('http://186.154.202.145:20002/home/PublishingImages/hongo%20lineas%20%20cultivo.svg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: -1;
@@ -114,7 +114,6 @@ h2 {
 	margin: 0 auto;
 	width: 50%;
 	height: 60%;
-	/* widht:40vw */
 	display: block;
 }
 
@@ -122,7 +121,7 @@ h2 {
 	width: 25%;
 	position: relative;
 	left: 4%;
-	bottom: -14em;
+	bottom: -12em;
 	filter: drop-shadow(0px 8px 3px #02020265);
 	object-fit: cover;
 }
@@ -130,12 +129,12 @@ h2 {
 .inicial2 {
 	width: 20%;
 	position: relative;
-	left: 55%;
-	bottom: -16em;
+	left: 54%;
+	bottom: -15em;
 	opacity: 50%;
 	filter: drop-shadow(0px 8px 3px #02020265);
 	object-fit: cover;
-	rotate: -60deg;
+	rotate: -65deg;
 }
 
 .inicial3 {
@@ -182,21 +181,19 @@ h3 {
 h3::after {
 	content: '';
 	display: block;
-	width: 10%;
+	width: 5%;
 	height: 2px;
 	background-color: rgb(214, 51, 132);
-	position: absolute;
-	bottom: -16.5rem;
-	left: 45%;
+	position: relative;
+	bottom: -10px;
+	left: 34%;
 	border-radius: 2px;
 }
 
 p {
-	position: absolute;
 	color: #000;
 	opacity: 87%;
 	z-index: 70;
-	bottom: -58em;
 	font-size: 18px;
 	font-family: 'Poppins';
 	font-style: normal;
@@ -274,9 +271,10 @@ strong {
 .contenedor label {
 	position: absolute;
 	top: 25px;
-	right: 10px;
+	right: 30px;
 	color: rgba(12, 46, 109, 1);
 	font-size: 30px;
+	font-weight: 600;
 	cursor: pointer;
 }
 
@@ -308,12 +306,12 @@ strong {
 .h3-contenedor::after {
 	content: '';
 	display: block;
-	width: 30%;
+	width: 15%;
 	height: 2px;
 	background-color: rgb(214, 51, 132);
-	position: absolute;
-	bottom: -10px;
-	left: 37%;
+	position: relative;
+	bottom: 1px;
+	left: 6%;
 	border-radius: 2px;
 }
 
@@ -340,19 +338,13 @@ strong {
 	position: relative;
 	top: -2em;
 	margin-left: 48px;
-	color: rgba(12, 46, 109, 1);
+	color: rgb(214, 51, 132);
 	text-shadow: none;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'Poppins';
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 600;
 	text-align: justify;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-	.contenedor {
-		width: 95%;
-	}
 }
 
 /* ****** */
@@ -386,12 +378,12 @@ strong {
 .Conoce::after {
 	content: '';
 	display: block;
-	width: 30%;
+	width: 22%;
 	height: 2px;
 	background-color: rgb(214, 51, 132);
-	position: absolute;
+	position: relative;
 	bottom: -10px;
-	left: 40%;
+	left: 1%;
 	border-radius: 2px;
 }
 
@@ -522,12 +514,12 @@ aside {
 .Potencia::after {
 	content: '';
 	display: block;
-	width: 30%;
+	width: 11%;
 	height: 2px;
 	background-color: rgb(214, 51, 132);
-	position: absolute;
+	position: relative;
 	bottom: -10px;
-	left: 35%;
+	left: 0%;
 	border-radius: 2px;
 }
 
@@ -586,15 +578,20 @@ aside {
 
 .blue {
 	border: none;
-	color: #fff;
-	background: rgb(214, 51, 132);
+	color: rgb(214, 51, 132);
+	background: var(--White);
+	border: 1px solid rgb(214, 51, 132);
 	border-radius: 15px;
 	background-size: 100% auto;
 	font-family: inherit;
+	font-weight: 600;
 	font-size: 17px;
 	padding: 0.6em 1.5em;
+	transition: background-color 0.6s ease, color 0.6s ease;
 }
 .blue:hover {
+	background-color: rgb(214, 51, 132);
+	color: white;
 	background-position: right center;
 	background-size: 200% auto;
 	-webkit-animation: pulse 2s infinite;
@@ -616,16 +613,21 @@ aside {
 
 .green {
 	border: none;
-	color: #fff;
-	background: rgb(214, 51, 132);
+	color: rgb(214, 51, 132);
+	background: var(--White);
+	border: 1px solid rgb(214, 51, 132);
 	border-radius: 15px;
 	background-size: 100% auto;
 	font-family: inherit;
+	font-weight: 600;
 	font-size: 17px;
 	padding: 0.6em 1.5em;
+	transition: background-color 0.6s ease, color 0.6s ease;
 }
 
 .green:hover {
+	background-color: rgb(214, 51, 132);
+	color: white;
 	background-position: right center;
 	background-size: 200% auto;
 	-webkit-animation: pulse 2s infinite;
@@ -658,145 +660,6 @@ aside {
 	left: -40%;
 	transform: translateX(15%);
 }
-
-/* @media only screen and (min-width: 320px) and (max-width: 768px) {
-	.doctor-point {
-		flex-basis: 60%;
-	}
-
-	.doctor-info:nth-child(2) {
-		position: absolute;
-		top: 5em;
-		left: 53%;
-		transform: translateX(15%);
-	}
-
-	.doctor-info2:nth-child(2) {
-		position: absolute;
-		top: 5em;
-		left: -12%;
-		transform: translateX(15%);
-	}
-}
-
-@media (min-width: 1024px) {
-	.doctor-point {
-		flex-basis: 30%;
-	}
-}
-
-@media (min-width: 2560px) {
-	.doctor-point {
-		flex-basis: 20%;
-	}
-} */
-
-/* *********** */
-/* aside {
-	background: linear-gradient(
-		0deg,
-		rgba(6, 16, 41, 1) 0%,
-		rgba(12, 46, 109, 1) 100%
-	);
-	height: 100%;
-	overflow: hidden;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.doctor-point {
-	height: 40%;
-	width: 40%;
-	position: relative;
-	margin-top: 5em;
-}
-
-.doctor-info {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 5em;
-}
-
-.doctor-info h2 {
-	color: #fff;
-	font-size: 2em;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 500;
-}
-
-.doctor-info2 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 5em;
-}
-
-.doctor-info2 h2 {
-	color: #fff;
-	font-size: 2em;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 500;
-}
-
-.btn {
-	cursor: pointer;
-	margin-top: 1em;
-	border-radius: 5px;
-	text-decoration: none;
-	padding: 10px;
-	font-size: 2em;
-	transition: 0.3s;
-	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-o-transition: 0.3s;
-	display: inline-block;
-}
-
-.blue {
-	color: #0d6efd;
-	text-shadow: none;
-	border: 2px #0d6efd solid;
-	font-size: 1.3em;
-}
-
-.blue:hover {
-	background-color: #55acee;
-	color: #fff;
-}
-
-.green {
-	color: #d63384;
-	text-shadow: none;
-	border: 2px #d63384 solid;
-	font-size: 1.3em;
-}
-
-.green:hover {
-	color: #fff;
-	background-color: #d63384;
-}
-
-.doctor-info:nth-child(2) {
-	position: absolute;
-	top: 8em;
-	left: 50%;
-	transform: translateX(15%);
-}
-
-.doctor-info2:nth-child(2) {
-	position: absolute;
-	top: 8em;
-	left: -1%;
-	transform: translateX(15%);
-} */
-
-/* ---------------------- */
-
-/* ******************/
 
 /* Estilos específicos para pantallas 4K */
 

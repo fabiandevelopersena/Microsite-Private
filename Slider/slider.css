@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb {
 	font-style: normal;
 	font-weight: bold;
 	align-items: center;
-	z-index: 120;
+	z-index: 70;
 	position: absolute;
 	top: 10%;
 	left: 30%;
@@ -89,12 +89,11 @@ body::-webkit-scrollbar-thumb {
 .fungicas::after {
 	content: '';
 	display: block;
-	width: 30%;
+	width: 10%;
 	height: 2px;
 	background-color: rgb(214, 51, 132);
-	position: absolute;
-	bottom: 5px;
-	left: 40%;
+	position: relative;
+	bottom: 10px;
 	border-radius: 2px;
 }
 
@@ -103,9 +102,10 @@ body::-webkit-scrollbar-thumb {
 	top: -700px;
 	left: 43%;
 	border: none;
-	color: #fff;
 	text-shadow: none;
-	background: rgb(214, 51, 132);
+	color: rgb(214, 51, 132);
+	background: var(--White);
+	border: 1px solid rgb(214, 51, 132);
 	border-radius: 15px;
 	background-size: 100% auto;
 	font-family: inherit;
@@ -113,10 +113,13 @@ body::-webkit-scrollbar-thumb {
 	font-size: 17px;
 	padding: 0.6em 1.5em;
 	cursor: pointer;
-	z-index: 90;
+	z-index: 70;
+	transition: background-color 0.6s ease, color 0.6s ease;
 }
 
 .fungicas2:hover {
+	background-color: rgb(214, 51, 132);
+	color: white;
 	background-position: right center;
 	background-size: 200% auto;
 	-webkit-animation: pulse 2s infinite;
@@ -143,9 +146,10 @@ body::-webkit-scrollbar-thumb {
 	left: 40%;
 	z-index: 90;
 	border: none;
-	color: #fff;
 	text-shadow: none;
-	background: rgb(214, 51, 132);
+	color: rgb(214, 51, 132);
+	background: var(--White);
+	border: 1px solid rgb(214, 51, 132);
 	border-radius: 15px;
 	background-size: 100% auto;
 	font-family: inherit;
@@ -153,16 +157,19 @@ body::-webkit-scrollbar-thumb {
 	font-size: 17px;
 	padding: 0.6em 1.5em;
 	cursor: pointer;
+	transition: background-color 0.6s ease, color 0.6s ease;
 }
 
 .fungicas3:hover {
+	background-color: rgb(214, 51, 132);
+	color: white;
 	background-position: right center;
 	background-size: 200% auto;
 	-webkit-animation: pulse 2s infinite;
-	animation: pulse514 1.5s infinite;
+	animation: pulse515 1.5s infinite;
 }
 
-@keyframes pulse514 {
+@keyframes pulse515 {
 	0% {
 		box-shadow: 0 0 0 0 rgb(214, 51, 132, 0.4);
 	}
@@ -179,12 +186,13 @@ body::-webkit-scrollbar-thumb {
 .fungicas5 {
 	position: absolute;
 	top: -147rem;
-	left: 44%;
+	left: 43%;
 	z-index: 90;
 	border: none;
-	color: #fff;
 	text-shadow: none;
-	background: rgb(214, 51, 132);
+	color: rgb(214, 51, 132);
+	background: var(--White);
+	border: 1px solid rgb(214, 51, 132);
 	border-radius: 15px;
 	background-size: 100% auto;
 	font-family: inherit;
@@ -192,9 +200,12 @@ body::-webkit-scrollbar-thumb {
 	font-size: 17px;
 	padding: 0.6em 1.5em;
 	cursor: pointer;
+	transition: background-color 0.6s ease, color 0.6s ease;
 }
 
 .fungicas5:hover {
+	background-color: rgb(214, 51, 132);
+	color: white;
 	background-position: right center;
 	background-size: 200% auto;
 	-webkit-animation: pulse 2s infinite;
@@ -224,63 +235,63 @@ body::-webkit-scrollbar-thumb {
 .one /* h1,
 .one h2 */,
 #first:checked ~ #labels label.first {
-	color: rgb(12 46 109 / 80%);
+	color: rgb(214 51 132/ 80%);
 	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
 }
 
 .two /* h1,
 .two h2 */,
 #second:checked ~ #labels label.second {
-	color: rgb(12 46 109 / 80%);
+	color: rgb(214 51 132/ 80%);
 	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
 }
 
 .three /* h1,
 .three h2 */,
 #third:checked ~ #labels label.third {
-	color: rgb(12 46 109 / 80%);
+	color: rgb(214 51 132/ 80%);
 	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
 }
 
 .four /* h1,
 .four h2 */,
 #fourth:checked ~ #labels label.fourth {
-	color: rgb(12 46 109 / 80%);
+	color: rgb(214 51 132/ 80%);
 	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
 }
 
 .five /* h1,
 .five h2 */,
 #fifth:checked ~ #labels label.fifth {
-	color: rgb(12 46 109 / 80%);
+	color: rgb(214 51 132/ 80%);
 	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
 }
 
 .six /* h1,
 .six h2 */,
 #sixth:checked ~ #labels label.sixth {
-	color: rgb(12 46 109 / 80%);
+	color: rgb(214 51 132/ 80%);
 	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
 }
 
 .seven /* h1,
 .seven h2 */,
 #seventh:checked ~ #labels label.seventh {
-	color: rgb(12 46 109 / 80%);
+	color: rgb(214 51 132/ 80%);
 	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
 }
 
 .eight /* h1,
 .eight h2 */,
 #eighth:checked ~ #labels label.eighth {
-	color: rgb(12 46 109 / 80%);
+	color: rgb(214 51 132/ 80%);
 	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
 }
 
 .nine /* h1,
 .nine h2 */,
 #nineth:checked ~ #labels label.nineth {
-	color: rgb(12 46 109 / 80%);
+	color: rgb(214 51 132/ 80%);
 	text-shadow: rgb(255 255 255 / 80%) 0.1em 0.1em 0.2em;
 }
 
@@ -304,7 +315,7 @@ label {
 	bottom: 7%;
 	left: 3%;
 	width: 100%;
-	z-index: 100;
+	z-index: 70;
 	text-align: center;
 }
 
@@ -420,7 +431,7 @@ label {
 	position: relative;
 	left: -50px;
 	top: -86px;
-	background-color: #9fdab5;
+	background-color: #9facda;
 }
 
 .nine div {
@@ -447,4 +458,123 @@ label {
 	opacity: 1;
 }
 
-/* ******* */
+/* Responisve */
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	#labels {
+		position: absolute;
+		bottom: 2%;
+		/* left: 3%; */
+		width: 100%;
+		z-index: 70;
+		text-align: center;
+	}
+	.fungicas {
+		color: rgb(12, 46, 109);
+		text-shadow: 2px 2px rgb(255 255 255);
+		text-align: center;
+		font-size: 40px;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: bold;
+		align-items: center;
+		z-index: 70;
+		position: absolute;
+		top: 5%;
+		left: 0%;
+	}
+	.fungicas::after {
+		content: '';
+		display: block;
+		width: 10%;
+		height: 2px;
+		background-color: rgb(214, 51, 132);
+		position: relative;
+		bottom: 10px;
+		left: 30%;
+		border-radius: 2px;
+	}
+	.fungicas2 {
+		position: absolute;
+		top: -721px;
+		left: 25%;
+		border: none;
+		text-shadow: none;
+		color: rgb(214, 51, 132);
+		background: var(--White);
+		border: 1px solid rgb(214, 51, 132);
+		border-radius: 15px;
+		background-size: 100% auto;
+		font-family: inherit;
+		font-weight: 600;
+		font-size: 17px;
+		padding: 0.6em 1.5em;
+		cursor: pointer;
+		z-index: 70;
+		transition: background-color 0.6s ease, color 0.6s ease;
+	}
+	.fungicas3 {
+		position: absolute;
+		top: -720px;
+		left: 15%;
+		z-index: 90;
+		border: none;
+		text-shadow: none;
+		color: rgb(214, 51, 132);
+		background: var(--White);
+		border: 1px solid rgb(214, 51, 132);
+		border-radius: 15px;
+		background-size: 100% auto;
+		font-family: inherit;
+		font-weight: 600;
+		font-size: 17px;
+		padding: 0.6em 1.5em;
+		cursor: pointer;
+		transition: background-color 0.6s ease, color 0.6s ease;
+	}
+	.fungicas5 {
+		position: absolute;
+		top: -148rem;
+		left: 28%;
+		z-index: 90;
+		border: none;
+		text-shadow: none;
+		color: rgb(214, 51, 132);
+		background: var(--White);
+		border: 1px solid rgb(214, 51, 132);
+		border-radius: 15px;
+		background-size: 100% auto;
+		font-family: inherit;
+		font-weight: 600;
+		font-size: 17px;
+		padding: 0.6em 1.5em;
+		cursor: pointer;
+		transition: background-color 0.6s ease, color 0.6s ease;
+	}
+}
+
+@media screen and (min-width: 1900px) and (max-height: 3840px) {
+	.fungicas {
+		color: rgb(12, 46, 109);
+		text-shadow: 2px 2px rgb(255 255 255);
+		text-align: center;
+		font-size: 40px;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: bold;
+		align-items: center;
+		z-index: 70;
+		position: absolute;
+		top: 10%;
+		left: 35%;
+	}
+
+	#labels {
+		margin-left: -2rem;
+		position: absolute;
+		bottom: 7%;
+		width: 100%;
+		z-index: 70;
+		text-align: center;
+	}
+}

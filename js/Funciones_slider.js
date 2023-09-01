@@ -4,7 +4,11 @@ function cargarSlider() {
 
 	// Realizar una petición AJAX para obtener el contenido del slider
 	const xhr = new XMLHttpRequest();
-	xhr.open('GET', 'Slider/slider.html', true);
+	xhr.open(
+		'GET',
+		'http://186.154.202.145:20002/home/Paginas/Slider/slider.html',
+		true
+	);
 	xhr.onreadystatechange = function () {
 		if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
 			// Insertar el contenido del slider en el placeholder
@@ -15,6 +19,7 @@ function cargarSlider() {
 		}
 	};
 	xhr.send();
+	s;
 }
 
 // Llama a la función cuando se cargue la página

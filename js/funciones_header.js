@@ -1,23 +1,39 @@
 // Carga el contenido del encabezado en todas las páginas
 function cargarEncabezado() {
 	const headerPlaceholder = document.getElementById('header-placeholder');
+	
+	// Ruta relativa al encabezado en la carpeta Header_Nav
+	const headerPath =
+		'http://186.154.202.145:20002/home/Paginas/Header_Nav/header.html';
 
 	// Petición AJAX para obtener el contenido del encabezado
 	const xhr = new XMLHttpRequest();
-	xhr.open('GET', 'Header_Nav/header.html', true);
+	xhr.open('GET', headerPath, true);
 	xhr.onreadystatechange = function () {
 		if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
 			// Contenido del encabezado en el placeholder
 			headerPlaceholder.innerHTML = xhr.responseText;
 
 			// Código para manejar el menú de navegación
+			//  seleccionamos los dos elementos que serán clickables
+
 			const toggleButton = document.getElementById('button-menu');
 			const navWrapper = document.getElementById('nav');
 
+			/* 
+          cada ves que se haga click en el botón 
+          agrega y quita las clases necesarias 
+          para que el menú se muestre.
+        */
 			toggleButton.addEventListener('click', () => {
 				toggleButton.classList.toggle('close');
 				navWrapper.classList.toggle('show');
 			});
+
+			/* 
+          Cuándo se haga click fuera del contenedor de enlaces 
+          el menú debe esconderse.
+        */
 
 			navWrapper.addEventListener('click', (e) => {
 				if (e.target.id === 'nav') {

@@ -28,85 +28,15 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
+
+  <script src="http://186.154.202.145:20002/home/Paginas/Js/funciones_header.js"></script>
+
+  <script src="http://186.154.202.145:20002/home/Paginas/Js/Sidebar_zoom.js"></script>
 </head>
 
 <body>
-  <header>
-    <div class="main-header">
-      <a target="_blank" href="https://www.ins.gov.co/Paginas/inicio.aspx">
-        <img class="img-colombiapotencia"
-          src=" https://cdn.glitch.global/c3a58625-9404-4869-94be-2b212af293a6/BLANCO.svg?v=1688580597149" alt="" /></a>
-
-      <div class="divider">
-        <a target="_blank" href="https://www.ins.gov.co/Paginas/inicio.aspx"><img class="img-gov"
-            src="https://cdn.glitch.global/c3a58625-9404-4869-94be-2b212af293a6/logo%20ins%20blanco.svg?v=1688580963802"
-            alt="" /></a>
-        <span class="divider-text"></span>
-        <a href="http://186.154.202.145:20002/home/Paginas/Home.html"><img class="img-micologia"
-            src="https://cdn.glitch.global/c3a58625-9404-4869-94be-2b212af293a6/e087486f-9d57-40fe-8490-1dae1f6f654d.logo%20blanco%2070x70%20mobile.png?v=1688578899515"
-            alt="" /></a>
-      </div>
-    </div>
-
-    <nav id="nav" class="main-nav">
-      <div class="nav-links">
-        <a class="link-item" href="http://186.154.202.145:20002/home/Paginas/Home.html">Home</a>
-
-        <li class="submenu">
-          <a class="link-item" href="#">Enfermedades Fungicas &#9660;</a>
-          <ul>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Histoplasmosis/Paginas/Histoplasmosis.html">Histoplasmosis</a>
-            </li>
-            <li>
-              <a class="link-item" href="http://186.154.202.145:20002/home/Paracoccidioidomicosis/Paginas/Paracocciocidimicosis.html
-                                                          ">Paracoccidioidomicosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Candida%20auris/Paginas/Candida-auris.html">Candida auris</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Candidiasis/Paginas/Candidiasis.html">Candidiasis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Aspergilosis/Paginas/Aspergilosis.html">Aspergilosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Mucormicosis/Paginas/Murcomicosis.html">Mucormicosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Criptococosis/Paginas/Criptococosis.html">Criptococosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Cromoblastomicosis/Paginas/Chromoblastomicosis.html">Cromoblastomicosis</a>
-            </li>
-            <li>
-              <a class="link-item"
-                href="http://186.154.202.145:20002/home/Esporotricosis/Paginas/Esportricosis.html">Esporotricosis</a>
-            </li>
-
-          </ul>
-        </li>
-
-        <a class="link-item" href="http://186.154.202.145:20002/home/Webinar/Paginas/Webinar.html">Webinar</a>
-
-        <a target="_blank" class="link-item" href="https://aulavirtual.ins.gov.co/Formularios/Inicio/Inicio.aspx">Aula
-          Virtual</a>
-      </div>
-    </nav>
-    <button id="button-menu" class="button-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </header>
+  <div id="header-placeholder"></div>
+  <br>
 
   <div class="grid-container">
     <div class="sidebar">
@@ -150,7 +80,7 @@
         onclick="Ocultar('ejemplo3'); return false;">Prevención</a>
       <a class="sidebar-lateral"
         href="http://186.154.202.145:20002/home/Aspergilosis/Paginas/Secciones%20-%20%20Aspergilosis/Diagnostico.html"
-        onclick="Ocultar('ejemplo3'); return false;">Diagnostico</a>
+        onclick="Ocultar('ejemplo3'); return false;">Diagnostico por Laboratorio</a>
 
 
       <a class="sidebar-lateral"
@@ -230,45 +160,6 @@
   </div>
   </div>
   </div>
-
-
-  <!-- JS - Galeria -->
-  <script>
-    (function () {
-      var lightbox = document.createElement('div');
-      lightbox.className = 'lightbox';
-
-      var img = document.createElement('img');
-      var caption = document.createElement('p');
-      caption.className = 'caption';
-
-      lightbox.appendChild(img);
-      lightbox.appendChild(caption);
-
-      document.body.appendChild(lightbox);
-
-      var galleryImages = document.querySelectorAll('.lightbox-gallery img');
-      galleryImages.forEach(function (image) {
-        image.addEventListener('click', function (e) {
-          e.preventDefault();
-
-          var src = this.getAttribute('data-image-hd');
-          var cap = this.getAttribute('alt');
-
-          img.src = src;
-          caption.textContent = cap;
-
-          lightbox.style.display = 'block';
-        });
-      });
-
-      lightbox.addEventListener('click', function () {
-        lightbox.style.display = 'none';
-      });
-    })();
-  </script>
-  <!-- JS -->
-  <script src="http://186.154.202.145:20002/home/Paginas/Js/funciones.js" defer></script>
 
 </body>
 

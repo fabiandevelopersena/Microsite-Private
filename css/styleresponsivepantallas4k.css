@@ -1,32 +1,120 @@
 /* Estilos específicos para pantallas 4K */
 
 @media screen and (min-width: 1900px) and (max-height: 3840px) {
+	.text-banner {
+		height: 70em;
+	}
 
+	.wave {
+		position: absolute;
+		bottom: -220px;
+		width: 100%;
+	}
 
+	.inicial {
+		width: 25%;
+		position: relative;
+		left: 4%;
+		bottom: -20em;
+		filter: drop-shadow(0px 8px 3px #02020265);
+		object-fit: cover;
+	}
 
+	/* video */
 
+	.video-responsive iframe,
+	.video-responsive object,
+	.video-responsive embed {
+		position: absolute;
+		top: 30%;
+		left: 25%;
+	}
 
+	.inicial3 {
+		position: relative;
+		left: -44%;
+		bottom: 13em;
+		opacity: 50%;
+		filter: drop-shadow(0px 8px 3px #02020265);
+		object-fit: cover;
+		rotate: 110deg;
+	}
 
+	.inicial2 {
+		position: relative;
+		left: 54%;
+		bottom: -22em;
+		opacity: 0.5;
+		filter: drop-shadow(rgba(2, 2, 2, 0.396) 0px 8px 3px);
+		object-fit: cover;
+		rotate: -60deg;
+	}
 
+	/*  */
+	h3::after {
+		content: '';
+		display: block;
+		width: 5%;
+		height: 2px;
+		background-color: rgb(214, 51, 132);
+		position: relative;
+		bottom: -10px;
+		left: 38%;
+		border-radius: 2px;
+	}
 
+	section {
+		height: 55rem;
+	}
 
+	.lbl-modal {
+		text-decoration: underline;
+		padding: 10px 15px;
+		border-radius: 10px;
+		cursor: pointer;
+		position: relative;
+		top: -10em;
+		margin-left: 48px;
+		color: rgb(214, 51, 132);
+		/* color: rgba(12, 46, 109, 1); */
+		text-shadow: none;
+		font-size: 18px;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		text-align: justify;
+	}
 
+	.contenedor {
+		width: 700px;
+		height: 700px;
+		background-color: #fff;
+		box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+		transition: all 500ms ease;
+		position: relative;
+		transform: translateY(-30%);
+		overflow: scroll;
+	}
 
+	.h3-contenedor::after {
+		content: '';
+		display: block;
+		width: 15%;
+		height: 2px;
+		background-color: rgb(214, 51, 132);
+		position: relative;
+		bottom: 1px;
+		left: 23%;
+		border-radius: 2px;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+	/*  */
+	.imagenes {
+		height: 90rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		position: relative;
+	}
 }
