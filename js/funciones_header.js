@@ -1,10 +1,9 @@
 // Carga el contenido del encabezado en todas las páginas
 function cargarEncabezado() {
 	const headerPlaceholder = document.getElementById('header-placeholder');
-	
+
 	// Ruta relativa al encabezado en la carpeta Header_Nav
-	const headerPath =
-		'http://186.154.202.145:20002/home/Paginas/Header_Nav/header.html';
+	const headerPath = '/home/Paginas/Header_Nav/header.aspx';
 
 	// Petición AJAX para obtener el contenido del encabezado
 	const xhr = new XMLHttpRequest();

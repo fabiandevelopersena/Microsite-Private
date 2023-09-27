@@ -1,7 +1,6 @@
 :root {
-	--morado-capacita: #8c2b87;
-	--investiga-amarillo: #ef7d17;
-	--observa-azul: #135b89;
+	--verdeinstitucional: #158e7b;
+	--azulinstitucional: rgb(51, 102, 204);
 	--Black: #000;
 	--White: #fff;
 	--magenta: #d63384;
@@ -55,14 +54,14 @@ body::-webkit-scrollbar-thumb {
 		linear-gradient(0deg, rgba(6, 16, 41, 1) 0%, rgba(12, 46, 109, 1) 100%);
 	background-size: cover;
 	background-position: center;
-	height: 50rem;
+	height: 55rem;
 }
 
 .contenedor-textos {
 	width: 100%;
 	color: rgb(255, 255, 255);
 	position: relative;
-	top: 7em;
+	top: 10em;
 	left: -1%;
 }
 
@@ -106,7 +105,7 @@ h2 {
 .contenedor-textos2 {
 	color: #fff;
 	max-width: 50rem;
-	margin-top: 15%;
+	margin-top: 20%;
 }
 
 .title_2 {
@@ -161,7 +160,7 @@ h2 {
 
 .wave-cripto {
 	position: absolute;
-	bottom: -12em;
+	bottom: -18em;
 	left: 0;
 	width: 100%;
 	z-index: 70;
@@ -397,7 +396,7 @@ strong {
 	position: relative;
 	top: -4em;
 	margin-left: 46px;
-	color: rgba(12, 46, 109, 1);
+	color: rgb(214, 51, 132);
 	text-shadow: none;
 	font-size: 18px;
 	font-family: 'Poppins';
@@ -676,4 +675,95 @@ strong {
 	position: relative;
 	top: -10px;
 	filter: drop-shadow(0px 8px 3px #0202024f);
+}
+
+/* Menu lateral home enfermedades  */
+
+.bgwhite {
+	background-color: #fff;
+}
+
+section {
+	min-height: 100%;
+}
+
+.mainWrapper .rightMenu {
+	top: 60px;
+	bottom: 0;
+	position: fixed;
+	right: 0;
+	z-index: 999;
+}
+
+/* Botón izquierdo del menú */
+
+.mainWrapper .rightMenu .left {
+	width: 27px;
+	height: 168px;
+	background: url(http://186.154.202.145:20002/home/Histoplasmosis/PublishingImages/pesta%C3%B1a%20de%20acceso.svg)
+		no-repeat center center;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: -2rem;
+	/* margin-right: 12px; */
+	margin-top: 160px;
+}
+/* Contenido del menú */
+
+.mainWrapper .rightMenu .right {
+	background: url(http://186.154.202.145:20002/home/Histoplasmosis/PublishingImages/background%20peque%C3%B1o%203x3.svg);
+	display: none;
+	padding: 50px 0 0;
+	vertical-align: top;
+	height: 100%;
+	width: 300px; /* Ajusta el ancho según tus necesidades */
+	margin-top: -20rem;
+	text-align: center;
+	opacity: 0;
+	overflow-y: auto;
+}
+
+/* Estilos para el menú activo */
+.mainWrapper .rightMenu .right.active {
+	display: block;
+	opacity: 1;
+}
+/* Título del menú */
+.mainWrapper .rightMenu .right h2 {
+	font-size: 24px;
+	color: #ffffff !important;
+}
+
+/* Título del menú */
+.mainWrapper .rightMenu .right a {
+	font-size: 18px;
+	color: #ffffff !important;
+}
+/* Elementos del menú */
+.mainWrapper .rightMenu .right .content .item {
+	text-align: left;
+	display: block;
+	width: 100%;
+	padding: 10px 50px;
+	margin-bottom: 5px;
+}
+
+.opacityFull {
+	opacity: 1 !important;
+}
+
+.mainWrapper .rightMenu .right .content .active {
+	background: url(http://186.154.202.145:20002/home/Histoplasmosis/PublishingImages/background%20fondo%20menu%208x7.svg);
+}
+
+.mainWrapper .rightMenu .right .content .item {
+	text-align: left;
+	display: block;
+	width: 100%;
+	padding: 10px 50px;
+	margin-bottom: 5px;
+}
+
+.right img {
+	width: 15%;
 }

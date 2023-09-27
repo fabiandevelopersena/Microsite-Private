@@ -6,7 +6,7 @@ function cargarSlider() {
 	const xhr = new XMLHttpRequest();
 	xhr.open(
 		'GET',
-		'http://186.154.202.145:20002/home/Paginas/Slider/slider.html',
+		'/home/Paginas/Slider/slider.aspx',
 		true
 	);
 	xhr.onreadystatechange = function () {

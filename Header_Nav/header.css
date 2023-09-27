@@ -48,6 +48,89 @@ body::-webkit-scrollbar-thumb {
 	color: #fff;
 }
 
+/* Gov */
+/* Fuente iconografica */
+/* @font-face {
+	font-family: 'govco-font';
+	src: url('../assets/icons/fonts/govco-font-icons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+} */
+
+.barra-superior-govco {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #3366cc;
+	width: 100%;
+	height: 3rem;
+	padding-left: 4.375rem;
+	padding-top: 0.5rem;
+	z-index: 1001;
+}
+
+.barra-superior-govco a {
+	content: url(https://cdn.www.gov.co/assets/images/logo.svg);
+	height: 1.875rem;
+	width: 8.5rem;
+}
+
+.barra-superior-govco a:focus-visible {
+	outline: max(0.125rem, 0.15em) solid #ffffff;
+	border-radius: 0.313rem;
+}
+
+.barra-superior-govco .idioma-icon-barra-superior-govco {
+	height: 25px;
+	width: 25px;
+	border-radius: 0.313rem;
+	background-image: url('https://www.ins.gov.co/_catalogs/masterpage/images/btn-idioma.svg');
+	background-size: cover;
+	transition: all 400ms;
+	cursor: pointer;
+	padding: 0;
+	border: 0.125rem solid #ffffff;
+	font-size: 10px;
+	position: static;
+	position: absolute;
+	right: 5rem;
+	top: 0.6rem;
+}
+
+.barra-superior-govco .idioma-icon-barra-superior-govco:hover {
+	background-image: url('/home/PublishingImages/btn-idioma.svg');
+	transition: all 400ms;
+}
+
+.barra-superior-govco .idioma-icon-barra-superior-govco:focus {
+	outline: max(0.125rem, 0.15em) solid #ffffff;
+	outline-offset: max(0.188rem, 0.15em);
+}
+
+.barra-superior-govco .idioma-icon-barra-superior-govco::before {
+	font-family: 'govco-font';
+	content: '';
+	color: #3366cc;
+	font-size: 14px;
+}
+
+.barra-superior-govco .idioma-icon-barra-superior-govco:hover::before {
+	color: #ffffff;
+}
+
+@media (max-width: 991px) {
+	.barra-superior-govco {
+		justify-content: center;
+		padding: 0;
+	}
+
+	.barra-superior-govco .idioma-icon-barra-superior-govco {
+		right: 1rem;
+	}
+}
+
+/*  */
+
 header {
 	align-items: center;
 	box-sizing: border-box;
@@ -55,34 +138,38 @@ header {
 	justify-content: space-between;
 	padding: 16px 20px;
 	white-space: nowrap;
-	background: #0b2b66;
+	background: #fff;
 	position: fixed;
+	top: 3rem;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.493);
+	left: 0;
+	right: 0;
 	transition: background-color 0.3s;
 	width: 100%;
-	z-index: 999;
+	z-index: 1001;
 }
 .scrolled {
 	background: linear-gradient(
 		0deg,
-		rgba(6, 16, 41, 1) 0%,
-		rgba(12, 46, 109, 1) 100%
+		rgba(255, 255, 255, 1) 0% rgba(21, 142, 123, 1) 100%
 	);
-	border-bottom: 1px solid #ffffff;
+	box-shadow: none;
+	border-bottom: 2px solid #158e7b;
 }
 
 .img-colombiapotencia {
 	width: 7em;
 	object-fit: cover;
 	position: fixed;
-	top: 1%;
-	left: 2%;
+	top: 9%;
+	left: 5%;
 }
 
 .img-gov {
 	width: 5em;
 	object-fit: cover;
 	position: fixed;
-	top: 0.6%;
+	top: 8.5%;
 	left: 90%;
 }
 
@@ -90,7 +177,7 @@ header {
 	width: 3.5em;
 	object-fit: cover;
 	position: fixed;
-	top: 0%;
+	top: 8%;
 	left: 82%;
 }
 
@@ -98,7 +185,7 @@ header {
 	display: flex;
 	align-items: center;
 	position: fixed;
-	top: 27px;
+	top: 75px;
 	left: 86.7%;
 }
 
@@ -106,7 +193,7 @@ header {
 	margin: -2px 15px;
 	width: 10px;
 	height: 10px;
-	background-color: #fff;
+	background-color: #158e7b;
 	border-radius: 50%;
 }
 
@@ -151,7 +238,7 @@ header {
 }
 
 .link-item {
-	color: rgb(255, 255, 255);
+	color: #158e7b;
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: 600;
@@ -161,11 +248,13 @@ header {
 	margin-top: 0;
 	margin-right: 4rem;
 }
-
+.link-item:hover {
+	color: rgb(51, 102, 204);
+}
 .link-item::after {
 	position: absolute;
 	content: '';
-	background-color: rgb(214, 51, 132);
+	background-color: rgb(51, 102, 204);
 	bottom: -2px;
 	left: 0;
 	width: 0%;
@@ -240,14 +329,32 @@ header {
 		text-align: justify;
 	}
 
+	.submenu2 ul {
+		display: none;
+		position: absolute;
+		background-color: rgba(12, 46, 109, 1);
+		text-align: justify;
+	}
+
 	.submenu:hover ul {
 		width: 240px;
 		height: 430px;
 		display: block;
 		position: absolute;
-		background-color: rgba(12, 46, 109, 1);
-		top: 15px;
-		left: 32%;
+		background-color: rgb(255, 255, 255);
+		top: 40px;
+		left: 26%;
+		transition: 0.3s ease all;
+	}
+
+	.submenu2:hover ul {
+		width: 270px;
+		height: 200px;
+		display: block;
+		position: absolute;
+		background-color: rgb(255, 255, 255);
+		top: 40px;
+		left: 52%;
 		transition: 0.3s ease all;
 	}
 
@@ -258,8 +365,13 @@ header {
 	.submenu ul li {
 		display: block;
 	}
-
+	.submenu2 ul li {
+		display: block;
+	}
 	.submenu ul li a {
+		padding: 10px;
+	}
+	.submenu2 ul li a {
 		padding: 10px;
 	}
 }

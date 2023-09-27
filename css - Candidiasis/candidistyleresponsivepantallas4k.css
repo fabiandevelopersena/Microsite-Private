@@ -1,0 +1,159 @@
+/* Estilos específicos para pantallas 4K */
+
+@media screen and (min-width: 1900px) and (max-height: 3840px) {
+	.header-banner {
+		height: 70rem;
+	}
+	.inicial {
+		width: 34%;
+		position: relative;
+		left: 58%;
+		bottom: 22em;
+		/* transform: scaleX(-1); */
+		filter: drop-shadow(0px 3px 3px #f1f1f12c);
+	}
+
+	.wave-cripto {
+		position: absolute;
+		bottom: -15em;
+		left: 0;
+		width: 100%;
+		z-index: 70;
+	}
+
+	.text-section {
+		background-color: #ffffff;
+		height: 75rem;
+		position: relative;
+		top: 1em;
+	}
+	.Gen_3::after {
+		content: '';
+		display: block;
+		width: 5%;
+		height: 2px;
+		background-color: rgb(214, 51, 132);
+		position: relative;
+		bottom: -8px;
+		left: 33%;
+		border-radius: 2px;
+	}
+
+	.contenedor {
+		width: 700px;
+		height: 700px;
+		background-color: #fff;
+		box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+		transition: all 500ms ease;
+		position: relative;
+		transform: translateY(-30%);
+		overflow: scroll;
+	}
+	.h3-contenedor::after {
+		content: '';
+		display: block;
+		width: 15%;
+		height: 2px;
+		background-color: rgb(214, 51, 132);
+		position: relative;
+		bottom: 1px;
+		left: 23%;
+		border-radius: 2px;
+	}
+	.lbl-modal {
+		text-decoration: underline;
+		padding: 10px 15px;
+		border-radius: 10px;
+		cursor: pointer;
+		position: relative;
+		top: -3em;
+		/* left: 3px; */
+		color: rgb(214, 51, 132);
+		text-shadow: none;
+		font-size: 18px;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		text-align: justify;
+	}
+
+	.Conoce::after {
+		content: '';
+		display: block;
+		width: 5%;
+		height: 2px;
+		background-color: rgb(214, 51, 132);
+		position: relative;
+		bottom: -8px;
+		left: 43%;
+		border-radius: 2px;
+	}
+
+	.lbl-modal7 img {
+		width: 80%;
+		height: auto;
+		margin-left: 3rem;
+	}
+
+	.Recuerda {
+		height: 90rem;
+		background: url(http://186.154.202.145:20002/home/Histoplasmosis/PublishingImages/trama%20histoplasmosis%20banner.svg),
+			linear-gradient(0deg, rgba(6, 16, 41, 1) 0%, rgba(12, 46, 109, 1) 100%);
+		background-size: cover;
+		background-position: center;
+	}
+	.inicial2 {
+		width: 20%;
+		position: relative;
+		left: 70%;
+		bottom: 25em;
+		/* transform: scaleX(-1); */
+		filter: drop-shadow(0px 8px 3px #02020265);
+		object-fit: cover;
+	}
+
+	.candi-webinar-titulo {
+		color: rgba(255, 255, 255);
+		z-index: 70;
+		font-size: 40px;
+		margin-top: -15%;
+		/* margin-left: 5px; */
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		text-align: center;
+		text-transform: none;
+		line-height: 28px;
+		/* text-shadow: 2px 2px 2px #ffffd881; */
+	}
+
+	.candi-webinar-titulo::after {
+		content: '';
+		display: block;
+		width: 5%;
+		height: 2px;
+		background-color: rgb(214, 51, 132);
+		position: relative;
+		bottom: -10px;
+		left: 38%;
+		border-radius: 2px;
+	}
+	.pdf4 {
+		width: 20rem;
+		cursor: pointer;
+		margin-left: -70px;
+	}
+	.pdf-text2 {
+		color: #fff;
+		text-shadow: none;
+		font-family: 'Poppins';
+		/* margin-left: 10em; */
+		font-size: 18px;
+		position: relative;
+		bottom: -1rem;
+		font-style: normal;
+		font-weight: 600;
+		cursor: pointer;
+		white-space: nowrap;
+	}
+}

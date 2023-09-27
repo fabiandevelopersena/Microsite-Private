@@ -1,0 +1,168 @@
+:root {
+	--verdeinstitucional: #158e7b;
+	--azulinstitucional: rgb(51, 102, 204);
+	--Black: #000;
+	--White: #fff;
+	--magenta: #d63384;
+	--azul-web: #0d6efd;
+	--color-text: #135b89;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #ffffff;
+	font-family: 'Poppins', 'Work Sans', 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+}
+
+body::-webkit-scrollbar {
+	width: 8px;
+	background: #14213d6c;
+	margin: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 0.856) 20%,
+		rgb(12, 46, 109) 80%
+	);
+	border-radius: 5px;
+}
+
+::selection {
+	background-color: #d63384;
+	color: #fff;
+}
+
+/* Estilos generales para el contenedor */
+.govco-footer {
+	background-color: #3366cc;
+	color: #fff;
+	padding: 20px;
+	width: 100%;
+	float: left;
+}
+
+/* Estilos para el contenedor de las columnas */
+.govco-portales-contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Estilos para cada columna */
+.col-4 {
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+	padding: 10px;
+	border-left: 1px solid #fff;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* Estilos para el logo y las imágenes */
+.govco-logo-container-portal {
+	text-align: center;
+}
+
+.govco-separator {
+	border-left: 1px solid #e5eefb;
+	opacity: 1px;
+	height: 44px;
+	margin-left: 10px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.govco-logo {
+	height: 30px;
+	display: inline-block;
+	content: url(https://cdn.www.gov.co/v4/assets/images/logo.svg);
+	vertical-align: super;
+}
+
+.govco-co {
+	height: 48px;
+	margin-top: 24px;
+	display: inline-block;
+	content: url(https://cdn.www.gov.co/v4/assets/images/logo-colombia.svg);
+}
+.govco-co2 {
+	height: 48px;
+	margin-top: 24px;
+	display: inline-block;
+	content: url(https://cdn.glitch.global/a282c3f5-446f-4d24-9b35-d5baf9f89804/e305fbf1-024f-4a62-b7f1-ba5a064d4b3a-1imagen_noticia.png?v=1694812811432);
+}
+
+/* Estilos para el texto en la sección de información */
+.govco-texto-datos-portal {
+	font-size: 14px;
+	color: #fff;
+}
+
+/* Estilos para el encabezado de la sección de información */
+.govco-text-header-portal-1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+/* Estilos para la red de redes sociales */
+.govco-network {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+/* Estilos textos gov */
+
+.texto-gov {
+	color: #fff;
+}
+
+.govco-iconContainer {
+	margin-right: 10px;
+}
+
+/* Estilos para los íconos de redes sociales */
+.icon-portal {
+	/* Estilos para los íconos, ajusta el tamaño según sea necesario */
+	font-size: 24px;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.govco-link-portal {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+/* Estilos para la sección de información de contacto */
+.govco-texto-telefonos {
+	font-size: 14px;
+}
+
+/* Estilos para el encabezado de la sección de contacto */
+.govco-text-header-portal-1 .govco-phone-alt::before {
+	/* Estilos para el icono de teléfono, ajusta el tamaño según sea necesario */
+	font-size: 24px;
+	margin-right: 5px;
+}
+
+/* Estilos para los enlaces de políticas, mapa del sitio, etc. */
+.govco-links-portal-container {
+	margin-top: 20px;
+}

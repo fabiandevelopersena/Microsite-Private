@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resistencia antifúngica</title>
+
+  <!-- ESTILOS -->
+  <link rel="stylesheet"
+    href="/home/Paginas/Secciones%20-%20%20Home/Css%20-%20Secciones/Resistencia%20antif%C3%BAngica.css">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="/home/PublishingImages/LOGO%20MICOLOGIA%20AZUL.png">
+
+
+  <!-- FUENTES -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Js -->
+  <script src="/home/Paginas/Js/funciones_header.js"></script>
+</head>
+
+<body>
+  <div id="header-placeholder"></div>
+  <br>
+
+  <div class="grid-container">
+    <div class="sidebar">
+      <button class="button-enfermedad"></button>
+
+      <a class="sidebar-lateral" href="/home/Paginas/Home.aspx" class="nav_link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-sign-turn-left"
+          viewBox="0 0 16 16">
+          <path
+            d="M11 8.5A2.5 2.5 0 0 0 8.5 6H7V4.534a.25.25 0 0 0-.41-.192L4.23 6.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 7 8.466V7h1.5A1.5 1.5 0 0 1 10 8.5V11h1V8.5Z" />
+          <path fill-rule="evenodd"
+            d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435Zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134Z" />
+        </svg>
+        <span>Home</span>
+      </a>
+
+      <a class="sidebar-lateral" href="/home/Paginas/Secciones%20-%20%20Home/Clasificacion%20de%20Micosis.aspx"
+        onclick="Ocultar('ejemplo'); return false;">Clasificación de las micosis</a>
+      <a class="sidebar-lateral"
+        href="/home/Paginas/Secciones%20-%20%20Home/Qui%C3%A9n%20puede%20contraer%20infecciones%20f%C3%BAngicas.aspx"
+        onclick="Ocultar('ejemplo2'); return false;">¿Quién puede contraer infecciones fúngicas?</a>
+      <a class="sidebar-lateral" href="/home/Paginas/Secciones%20-%20%20Home/Brotes%20causados%20por%20hongos.aspx"
+        onclick="Ocultar('ejemplo3'); return false;">Brotes causados por hongos</a>
+      <a class="sidebar-lateral" href="/home/Paginas/Secciones%20-%20%20Home/Resistencia%20antif%C3%BAngica.aspx"
+        onclick="Ocultar('ejemplo3'); return false;">Resistencia antifúngica</a>
+      <a class="sidebar-lateral"
+        href="/home/Paginas/Secciones%20-%20%20Home/Enfermedades%20f%C3%BAngicas%20y%20covid-19.aspx"
+        onclick="Ocultar('ejemplo3'); return false;">Enfermedades fúngicas y COVID-19</a>
+      <a class="sidebar-lateral"
+        href="/home/Paginas/Secciones%20-%20%20Home/Tipificaci%C3%B3n%20molecular%20en%20hongos%20de%20%20importancia%20en%20salud%20p%C3%BAblica.aspx"
+        onclick="Ocultar('ejemplo3'); return false;">Tipificación molecular en hongos de importancia en salud
+        pública</a>
+    </div>
+
+
+    <div class="main-content">
+
+      <h3 class="h3-contenedor2">¿Qué es la resistencia antifúngica?
+      </h3>
+      <p class="p-contenedor2">
+
+
+        Las infecciones fúngicas necesitan de un apropiado tratamiento para la recuperación favorable de los pacientes,
+        sin embargo, la rápida emergencia de los patógenos multirresistentes a los medicamentos representa una amenaza
+        para el control de las enfermedades causadas por estás. La resistencia antifúngica es la capacidad que tiene un
+        hongo de crecer a una concentración de un agente antifúngico en la que normalmente se detendría el crecimiento o
+        se produciría la muerte de un patógeno. La falla terapéutica relacionada con la emergencia de la resistencia a
+        los antifúngicos ocurre cuando un individuo con una micosis en curso no responde a un medicamento antifúngico
+        administrado a una dosis estándar. El aumento de la población con inmunocompromiso, el uso masivo y prolongado
+        de medicamentos antifúngicos, así como la formación de biopelículas o comunidades microbianas en los
+        dispositivos médicos invasivos como catéteres, sondas o de ventilación asistida, son todos factores que han
+        contribuido a la emergencia de la resistencia asociada a la atención en salud, aunque también se ha demostrado
+        el impacto del uso indiscriminado de compuestos antifúngicos a nivel agrícola y veterinario en la selección de
+        hongos con resistencia o sensibilidad disminuida a los antimicóticos.
+        <br><br>
+
+
+        <strong>¿Qué causa la resistencia antifúngica?</strong>
+        <br><br>
+
+        Algunas especies de hongos pueden tener resistencia intrínseca a ciertos tipos de compuestos antifúngicos, por
+        ejemplo, ciertas especies del moho <i>Aspergillus</i> y cepas de la levadura <i>Candida</i> spp. Tienen este
+        tipo de resistencia y los blancos a los que van dirigidos los medicamentos son intrínseca o naturalmente
+        incompatibles, por lo que el medicamento no se puede unir a los blancos del patógeno y cumplir su efecto
+        inhibitorio del desarrollo. La resistencia adquirida se refiere por su parte a la adquisición de mecanismos de
+        resistencia que permiten a las células fúngicas crecer a altas concentraciones de los agentes antifúngicos
+        <br><br>
+
+        La adquisición de mecanismos de resistencia a los antimicrobianos es fundamentalmente una respuesta de
+        adaptación y un cambio evolutivo a la presión que los agentes antifúngicos ejercen sobre las poblaciones de
+        microorganismos expuestos. Está relacionada con cambios genéticos y fisiológicos en las poblaciones de hongos.
+        Puede surgir de <i>novo</i>
+        en los individuos durante el curso de los tratamientos clínicos de larga duración, pero una gran proporción
+        tiene también un origen ambiental. La resistencia de origen ambiental ocurre cuando los hongos potencialmente
+        patógenos tienen contacto con fungicidas en el ambiente, estos agentes son ampliamente utilizados en agricultura
+        y en determinadas industrias para proteger materiales susceptibles a la contaminación por hongos saprofitos.
+        <br><br>
+
+
+        El desarrollo de antimicóticos históricamente ha sido el más ineficiente dentro de los tratamientos para las
+        enfermedades infecciosas. Los compuestos antifúngicos se han basado en las cuatro clases de medicamentos
+        existentes: los polienos, los azoles, las equinocandinas y el compuesto flucitosina. Sin embargo, la emergencia
+        y expansión de la resistencia está limitando severamente las opciones terapéuticas, especialmente en los casos
+        de micosis invasivas. En la última década sólo un nuevo compuesto antifúngico, el derivado azólico de segunda
+        generación isavuconazol, ha sido aprobado para uso clínico.
+
+        <br><br>
+
+
+        <strong> Resistencia a los azoles en especies de <i> Aspergillus</i></strong>
+        <br><br>
+
+        <i>Aspergillus fumigatus,</i> principal miembro de la sección <i>Fumigati,</i> es un patógeno oportunista y es
+        uno de los hongos más distribuidos en el planeta debido a su alta prevalencia como saprófito en la materia
+        vegetal en descomposición. Es el principal causante de aspergilosis a nivel global y uno de los patógenos
+        fúngicos asociado con mayor número de muertes dentro del grupo de pacientes con micosis invasivas. Las
+        aspergilosis engloban una diversidad de manifestaciones clínicas, que varían dependiendo del estado inmune del
+        hospedero y del tipo de infección; la forma más severa es la aspergilosis invasiva que ocurre cuando el hongo
+        después de ingresar por la ruta respiratoria se disemina desde el pulmón por vía sanguínea a órganos como el
+        cerebro, corazón, riñones, e incluso, la piel poniendo en alto riesgo la vida de los pacientes.
+        <br><br>
+
+        Clásicamente se ha considerado que el mayor riesgo de selección o generación de aislamientos resistentes se debe
+        a la exposición crónica del hongo a dosis subletales del antimicótico, no obstante, hallazgos recientes
+        evidencian que cepas de <i>Aspergillus</i> recuperadas de muestras de pacientes con formas invasivas que no
+        responden al tratamiento con azoles fueron adquiridas más probablemente a partir de fuentes ambientales y no son
+        el resultado de mutaciones de
+        <i>novo</i> durante la terapia.
+        <br><br>
+
+        Los medicamentos triazólicos son los compuestos de preferencia para el tratamiento de las aspergillosis, siendo
+        actualmente el voriconazol, el antifúngico de elección para las aspergilosis invasivas. Los fungicidas de tipo
+        azólico son también usados en agricultura para proteger cultivos, en veterinaria como tratamiento y profilaxis
+        para algunas infecciones en animales de producción y en ciertas industrias para evitar la contaminación de
+        materiales. Estos fungicidas son estructuralmente similares a los triazoles usados en el tratamiento de las
+        micosis humanas. Las cepas de
+        <i>Aspergillus</i> que se encuentran en el ambiente al estar expuestas de manera frecuente a los compuestos
+        azólicos de uso agrícola desarrollan mecanismos de resistencia que son compartidos con los triazoles de uso
+        clínico. La presencia de
+        <i>A. fumigatus</i> ambiental resistente a los triazoles representa un riesgo primordial para los pacientes
+        inmunocomprometidos. En Colombia se ha reportado el aislamiento de <i>A. fumigatus</i> resistente a los azoles a
+        partir de cultivos de vegetales y suelo de cultivos de flores, demostrando así evidencia sobre la diseminación
+        de este patógeno resistente, y poniendo de presente la importancia de iniciar una vigilancia activa en la
+        industria agrícola, monitoreando igualmente de cerca la resistencia antifúngica en los pacientes expuestos a los
+        azoles.
+        <br><br>
+
+
+        <strong> Resistencia en <i>Candida</i></strong>
+        <br><br>
+
+        Debido al incremento en las tasas de resistencia contra los compuestos azólicos y las equinocandinas usadas en
+        los tratamientos de las candidiasis y las aspergilosis, las infecciones invasivas causadas por estos hongos han
+        sido progresivamente más difíciles de tratar. La resistencia a los azoles en <i>Candida</i> puede presentarse
+        incluso sin haber expuesto al hongo previamente al medicamento, esta resistencia de tipo intrínseco está
+        relacionada con la falta de afinidad natural de un medicamento por su blanco; sin embargo, el uso poco
+        controlado de los azoles en el tratamiento de micosis superficiales, onicomicosis y como profilaxis para
+        individuos que van a ser sometidos a procedimientos inmunosupresores, han llevado a la selección de aislamientos
+        intrínsecamente resistentes y a la aparición de la resistencia secundaria en cepas de <i>Candida</i> y otras
+        levaduras relacionadas filogenéticamente pertenecientes a la microbiota corporal.
+        <i>Candida glabrata (Nakaseomyces glabrata)</i> y <i>Pichia kudriavzevii (Candida krusei)</i> presentan altos
+        niveles de
+        resistencia al fluconazol. <i>C. glabrata</i> también presenta resistencia a las equinocandinas. También es
+        preocupante
+        que cada vez es más frecuente el aislamiento de <i>C. albicans</i> con sensibilidad disminuida al fluconazol, a
+        pesar
+        de ser considerada clásicamente como sensible a los antifúngicos. Un caso especial del fenómeno de resistencia a
+        los antimicóticos en hongos es <i>C. auris.</i> Esta levadura es un patógeno fúngico emergente de creciente
+        atención en
+        salud pública que continúa expandiéndose rápidamente a nivel mundial. Los casos de infección por <i>C. auris</i>
+        han
+        sido reportados en más de 30 países, aunque se estima que ya está distribuida a nivel mundial. Estos casos
+        involucran a pacientes críticamente enfermos, principalmente en unidades de cuidado intensivo. Las infecciones
+        por <i>C. auris</i> están asociadas con altas tasas de mortalidad, y son a menudo resistentes a múltiples
+        clases de medicamentos antifúngicos. <i>C. auris</i> coloniza la piel, pero también tiene capacidad para
+        adherirse a superficies y materiales inertes como los dispositivos médicos donde suele formar biopelículas. La
+        mayoría de los pacientes infectados con <i>C. auris</i> han tenido un dispositivo implantado o se han sometido a
+        algún
+        procedimiento invasivo. En estos pacientes hospitalizados se han obtenido aislamientos que muestran altas tasas
+        de resistencia (alrededor del 90%) al fluconazol. Aquellas infecciones resistentes al fluconazol y a las
+        equinocandinas tienen limitadas opciones de tratamiento, una de ellas es la anfotericina B, sin embargo, este
+        compuesto tiene una toxicidad elevada especialmente para aquellos pacientes con cuadros clínicos muy
+        complicados. Las cepas de hongos que son resistentes a casi todo el espectro de compuestos antifúngicos
+        disponibles son conocidas como ´superhongos´ y son una preocupación seria para los gobiernos en materia de salud
+        pública.
+        <br><br>
+        Las tasas de resistencia varían según la especie identificada; por ejemplo, <i>C. krusei</i> es intrínsecamente
+        resistente al fluconazol, mientras <i>C. glabrata</i> tiene susceptibilidad disminuida a este antifúngico.
+        <br><br><br>
+
+
+        <strong>¿Cómo se puede controlar el avance de la ola de la emergencia de la resistencia antifúngica?</strong>
+        <br><br><br>
+        Actualmente hay diferentes estrategias en curso que incluyen iniciativas de organizaciones como la Organización
+        Mundial de la Salud (OMS), la Organización Panamericana de la Salud (OPS), el CDC y la plataforma colaborativa
+        Joint Programming Initiative on Antimicrobial Resistance (por su sigla en inglés: JPIAMR). Las estrategias para
+        limitar la evolución y expansión de la resistencia de los patógenos fúngicos incluyen incrementar la vigilancia
+        de las enfermedades causadas por hongos junto con intervenciones coordinadas de monitoreo para dirigir el uso
+        apropiado de los agentes antifúngicos con el objetivo de alcanzar los mejores resultados clínicos y minimizar
+        eventos adversos.
+        <br><br>
+
+        Los CDC, por su parte, ha ejecutado acciones enfocadas en la expansión de la vigilancia de las enfermedades
+        causadas por hongos y el fortalecimiento de la capacidad de los laboratorios de salud pública; también ha
+        apoyado esfuerzos a nivel global dirigidos a la contención de la resistencia a los antimicrobianos a través de
+        estas estrategias. De igual manera, la OMS y la OPS están haciendo esfuerzos coordinados para la contención de
+        la resistencia dirigidos a instar a los gobiernos nacionales a que los profesionales de la salud prescriban los
+        agentes antifúngicos de manera controlada, además de enfocar acciones en educación comunitaria para limitar el
+        uso ambiental de los antifúngicos y llamar al cumplimiento de la legislación sobre el uso y dispensación de los
+        antimicrobianos.
+        <br><br>
+        Las estrategias a futuro para aminorar el impacto de la resistencia antifúngica podrían requerir tratar a
+        aquellos individuos en riesgo con compuestos antifúngicos patentados únicamente para uso clínico, este tipo de
+        aproximación a la “medicina personalizada”, también debe abordar los tipos de inmunocompromiso que predisponen a
+        los pacientes a las micosis, a través del empleo de inmunoterapias y vacunación.
+        <br><br>
+        <strong>Referencias y lecturas recomendadas</strong>
+        <br><br>
+
+        1. Ademe M, Girma F. Candida auris: From multidrug resistance to pan-resistant strains. Infect Drug Resist.
+        2020;13:1287.
+        <br><br>
+        2. Alvarez-Moreno C, Lavergne RA, Hagen F, Morio F, Meis JF, Le Pape P. Fungicide-driven alterations in
+        azole-resistant Aspergillus fumigatus are related to vegetable crops in Colombia, South America. Mycologia. 2019
+        Mar-Apr;111(2):217-224.
+        <br><br>
+        3. Arendrup MC. Update on antifungal resistance in Aspergillus and Candida. Clin Microbiol Infect. 2014;20:42-8.
+        <br><br>
+        4. Burks C, Darby A, Gómez Londoño L, Momany M, Brewer MT. Azole-resistant Aspergillus fumigatus in the
+        environment: Identifying key reservoirs and hotspots of antifungal resistance. PLoS Pathog. 2021; 17(7):
+        e1009711.
+        <br><br>
+        5. Chowdhary A, Kathuria S, Xu J, Meis JF. Emergence of azole-resistant Aspergillus fumigatus strains due to
+        agricultural azole use creates an increasing threat to human health. PLoS Pathog. 2013;9(10):e1003633.
+        <br><br>
+        6. Cortés JA, Ruiz JF, Melgarejo-Moreno LN, Lemos EV. Candidemia in Colombia. Biomedica. 2020;40(1):195-207.
+        doi: 10.7705/biomedica.4400.
+        <br><br>
+        7. Escandón P, Chow NA, Caceres DH, Gade L, Berkow EL, Armstrong P, et al. Molecular epidemiology of <i>Candida
+          auris</i> in Colombia reveals a highly related, countrywide colonization with regional patterns in
+        amphotericin B resistance. Clin Infect Dis. 2019;68(1):15-21.
+        <br><br>
+        8. . Fisher MC, Alastruey-Izquierdo A, Berman J, Bicanic T, Bignell EM, Bowyer P, et al. Tackling the emerging
+        threat of antifungal resistance to human health. Nat Rev Microbiol. 2022; 29:1-5
+        <br><br>
+        9. Gómez BL, González Á, Tobón A, Restrepo Á. Fundamentos de las micosis humanas. CIB Fondo Editorial; 2018 Nov
+        16.
+        <br><br>
+        10. Hendrickson JA, Hu C, Aitken SL, Beyda N. Antifungal resistance: a concerning trend for the present and
+        future. Curr Infect Dis Rep. 2019;21(12):47.
+        <br><br>
+        11. Kotey FC, Dayie NT, Tetteh-Uarcoo PB, Donkor ES. Candida bloodstream infections: changes in epidemiology and
+        increase in drug resistance. Infectious Diseases: Research and Treatment. 2021; 14:1–5.
+        <br><br>
+        12. Le Pape P, Lavergne RA, Morio F, Alvarez-Moreno C. Multiple fungicide driven alterations in azole-resistant
+        Aspergillus fumigatus, Colombia, 2015. Emerg Infect Dis. 2016;22(1):156-7. doi: 10.3201/eid2201.150978.
+
+        <br><br><br>
+        <strong class="enlaces">Enlaces de interés</strong>
+        <br><br>
+
+
+        1. Resistencia a los antimicrobianos enlaces de la Organización Panamericana de la
+        SaludOrganización
+        Panamericana de la Salud. ¿Qué es la resistencia a los antimicrobianos? [Internet]. [Consultado 5 de Agosto de
+        2022].
+        <br><br>
+        <strong class="enlaces"> Disponible en: </strong>
+        <br>
+        <a target="_blank" style="    color: rgb(214, 51, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    text-decoration: none;" href="https://www.cdc.gov/fungal/index.html">
+          https://www.cdc.gov/fungal/index.html</a>
+        <br><br>
+
+        2. CDC Centers for Disease, Control and Prevention. Fungal Diseases. Antifungal Resistance. [Internet].
+        [Consultado 5 de Agosto de 2022].
+        <br><br>
+        <strong class="enlaces"> Disponible en: </strong>
+        <br>
+        <a target="_blank" style="    color: rgb(214, 51, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    text-decoration: none;"
+          href="https://www.ins.gov.co/BibliotecaDigital/criterios-envio-aislamientos-bacterianos-y-levaduras-candida-spp-recuperados-en-iaas.pdf">
+          https://www.ins.gov.co/BibliotecaDigital/criterios-envio-aislamientos-bacterianos-y-levaduras-candida-spp-recuperados-en-iaas.pdf</a>
+
+        <br><br>
+
+        3. CDC Centers for Disease, Control and Prevention. Fungal Diseases. Antifungal
+        Resistance. <i> Candida
+          auris:</i> A Drug-resistant Germ That Spreads in Healthcare Facilities. [Internet]. [Consultado 5 de Agosto
+        de
+        2022].
+        <br><br>
+        <strong class="enlaces"> Disponible en: </strong>
+
+        <br>
+        <a target="_blank" style="    color: rgb(214, 51, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    text-decoration: none;" href="https://www.cdc.gov/fungal/candida-auris/c-auris-drug-resistant.html">
+          https://www.cdc.gov/fungal/candida-auris/c-auris-drug-resistant.html</a>
+
+      </p>
+
+      <br><br><br><br><br><br>
+
+    </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
